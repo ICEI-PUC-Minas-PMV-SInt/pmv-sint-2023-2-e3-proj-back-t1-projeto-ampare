@@ -1,23 +1,24 @@
-# TÍTULO DO PROJETO
+# PROJETO AMPARE WEB - BACKEND
 
-`CURSO`
+Curso Sistemas para a Internet - PUC-MG
 
-`DISCIPLINA`
+Eixo 3 - Projeto: Desenvolvimento Web Back-End - Turma 01 -
 
-`SEMESTRE`
+2023/2
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O Projeto Ampare é uma aplicação web elaborada em ambiente acadêmico que objetiva a criação de uma plataforma de ajuda humanitária, o AMPARE, com o intuito de conectar voluntários e ONGs que necessitem de auxílio em atividades, causas e ações sociais urgentes. A plataforma fornecerá o acesso intuitivo dos voluntários à causas que necessitem de ajuda urgente, compartilhando informações e conectando-os diretamente às ONGs.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+Angélica Scot - [@angelicasa](https://github.com/angelicasa)
+Matheus Soares de Sales - [@matheus-9](https://github.com/matheus-9)
+Maria Michele de Freitas - [@mmichelefreitas](https://github.com/mmichelefreitas)
+Nicolas F. Petrachin Wulk - [@nickwulk](https://github.com/nickwulk)
+Raquel Bomjardim Ferreira - [@bomjardimraquel](https://github.com/bomjardimraquel)
 
 ## Orientador
 
-* Nome completo do professor 1
+Prof. Will Ricardo dos Santos Machado
 
 ## Instruções de utilização
 
