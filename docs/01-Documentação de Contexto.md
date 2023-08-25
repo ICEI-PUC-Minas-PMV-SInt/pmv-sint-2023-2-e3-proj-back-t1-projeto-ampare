@@ -1,46 +1,45 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+O ano de 2022 iniciou-se com várias tragédias. Nos primeiros 5 meses, 457 pessoas morreram em desastres causados pelo excesso de chuva no Brasil, segundo levantamento da Confederação Nacional de Municípios (CNM), com base nos dados das defesas civis municipais.
+
+Em toda a Bahia, 84 mil vítimas das chuvas ainda estão desabrigadas ou desalojadas. Muitas já voltaram para casa, mas também precisam de ajuda (G1, 2022).
+
+De acordo com Nunes (2013), em situações como esta é imperante a atuação das Autoridades Públicas. Cabem a estas a prevenção e contenção desses desastres. Similarmente, tem-se a atuação do terceiro setor que possui grande força e relevância, principalmente no que diz respeito a prestação de serviços de ajuda humanitária para as vítimas dessas tragédias.
+
+No entanto, para que esses serviços possam ser realizados são necessários voluntários dispostos, organizados e mobilizados. Na Bahia, castigada pelos temporais, fora um desafio encontrar voluntários para distribuir a ajuda recebida. Uma organização social de Salvador conta que já enviou mais de 500 toneladas de donativos. Saíam dois caminhões por dia, mas poderiam ser quatro se houvessem mais voluntários (G1, 2022).
+
+A falta de voluntários em situações urgentes como essa poderia ser atenuada, se os interessados tivessem meios eficazes que os levassem a ter ciência dessas necessidades. Segundo pesquisa do Datafolha, realizada em 2021, 4 de 5 brasileiros consideram o trabalho voluntário importante (opinião de 83% dos entrevistados).
+
+No entanto, a falta de informação sobre essas atividades sociais e de conhecimento acerca das instituições ou ações de ajuda humanitária são uma barreira. Tal problemática é um empecilho para uma adesão maior às mobilizações em projetos sociais não remunerados. Principalmente, naqueles que precisam de ajuda urgente.
+
+Diante deste cenário, torna-se fundamental o desenvolvimento de uma aplicação web de ajuda humanitária, com o intuito de conectar os usuários (voluntários) com atividades e ações urgentes, de forma ativa. Nele, estarão contidas informações a respeito de projetos, organizações e suas relações com a comunidade. Possibilitando um acompanhamento, mapeamento de informações sobre atividades voluntárias disponíveis com agilidade, bem como a possibilidade de se conectar às ONGs atuantes nesta área.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Conforme destacado, o problema a ser solucionado se refere a falta de voluntários ou mesmo a falta de mobilização e organização destes durantes períodos de crise e desastres, onde centenas e muitas vezes milhares de pessoas precisam de amparo urgente. A carência de um canal específico de recrutamento e ordenação para causas dessa categoria é um grande obstáculo, pois impossibilita que muitos, dispostos a ajudar, recebam as informações necessárias de imediato ou que saibam como e onde contribuir.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste trabalho é a criação de uma aplicação web de ajuda humanitária, o AMPARE, com o intuito de conectar usuários (voluntários) com atividades, causas e ações sociais urgentes.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivos específicos, podemos ressaltar:
+
+- Fornecer um acesso intuitivo a causas que precisem de ajuda ativa;
+- Conectar organizações sociais e o poder público com voluntários;
+- Compartilhar informações, dados e convidar as pessoas para colaborar, com a ajuda humanitária necessária, em situações de crise.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+De cada 5 brasileiros, 4 consideram o trabalho voluntário importante (DATAFOLHA; IDIS, 2022). No entanto, existem muitas barreiras que impedem uma boa parte dessas pessoas de se engajar em ajudas humanitárias. Ainda nessa pesquisa, do Datafolha, 35% dos entrevistados afirmaram que o motivo de não estarem envolvidos nas causas sociais, se dava pelo fato de haver falta de oportunidade, de apoio, de incentivo, de convite ou pela escassez de informação a respeito de como fazer tais serviços.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Para a especialista em gestão de voluntários e voluntariado, Monica Exelrud Vilaarindo, a colaboração dos voluntários em crises emergenciais é fundamental, no entanto não há coordenação na forma como as pessoas são recrutadas e como irão colaborar, podendo provocar tumulto e prejuízo nas ações de assistência. A ex-coordenadora do Programa de Voluntariado da ONU afirma ainda que “Não existe metodologia e rede estruturada de voluntariado para responder a emergências e desastres humanitários, e não existe uma coordenação por parte dos governos locais” (INSTITUTO PARA O DESENVOLVIMENTO DO INVESTIMENTO SOCIAL, 2022).
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Por esse motivo, mostrou-se fulcral investir em um meio – aplicação web de ajuda humanitária – para solucionar o problema dessas pessoas, que desejam se voluntariar. Além de, consequentemente, ajudar as causas humanitárias que instituições do terceiro setor e do poder público estão envolvidas.
+
+A criação desta aplicação, com o intuito de dirimir as barreiras encontradas pelo voluntário (usuário) e enfrentadas pelas ONGs, se prova muito útil em situações de grande urgência, onde é necessária uma mobilização ordenada e grande número de pessoas dispostas a ajudar.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Definiu-se como público-alvo os indivíduos brasileiros maiores de idade que desejam participar e colaborar com o bem-estar da sua comunidade em nível local e nacional, voluntariando-se em ações humanitárias e ONGs que atuam na área de ajuda humanitária e necessitem recrutar voluntários para atuar em situações emergenciais.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+![Perfil do voluntariado no Brasil](./img/Perfil_do_voluntariado.png)
