@@ -10,7 +10,7 @@ O Projeto Ampare é uma aplicação web elaborada em ambiente acadêmico que obj
 
 ## Integrantes
 
-Angélica Scot - [@angelicasa](https://github.com/angelicasa)
+Angélica Almeida - [@angelicasa](https://github.com/angelicasa)
 Matheus Soares de Sales - [@matheus-9](https://github.com/matheus-9)
 Maria Michele de Freitas - [@mmichelefreitas](https://github.com/mmichelefreitas)
 Nicolas F. Petrachin Wulk - [@nickwulk](https://github.com/nickwulk)
