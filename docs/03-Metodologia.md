@@ -12,51 +12,29 @@ Nota: Vide documento modelo do estudo de caso "Portal de Notícias" e defina tam
 
 ## Controle de Versão
 
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
+Para garantir a integridade e a colaboração no desenvolvimento do projeto Ampare, nossa equipe adotou um processo de controle de versão baseado no conhecido modelo Git Flow, concebido por Vincent Driessen em 2010. Esse sistema de versionamento distribuído permite uma abordagem estruturada na gestão das alterações no código.
 
-O projeto segue a seguinte convenção para o nome de branches:
+Em nossa abordagem, todas as modificações realizadas no código são implementadas em branches separados, cada um cumprindo uma função específica:
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+- Hotfix: Ramificação destinada a correções emergenciais que precisam ser aplicadas diretamente na versão estável do software.
+- Release: Ramificação onde ocorre a preparação para lançamentos futuros, envolvendo ajustes finais e testes.
+- Develop: Ramificação principal onde a maior parte do desenvolvimento ocorre e onde as features são integradas antes de serem lançadas.
+- Feature: Ramificação usada para desenvolver novas funcionalidades. Cada funcionalidade é isolada nessa ramificação para facilitar a colaboração e o teste.
 
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
-
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
-
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Microfundamento: Gerência de Configuração](https://pucminas.instructure.com/courses/87878/)
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+O GitHub não apenas oferece um espaço que centraliza e armazena o código-fonte, mas também facilita a colaboração entre a equipe, permitindo revisões de código, discussões e um histórico completo das mudanças.
 
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+A equipe do projeto é organizada de forma clara e colaborativa, atribuindo papéis específicos a cada membro do grupo:
 
-Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-- Scrum Master: Felipe Domingos;
-- Product Owner: Rommel Carneiro;
-- Equipe de Desenvolvimento: Pedro Penna, Pedro Ivo, Rodrigo Richard;
-- Equipe de Design: Simone Nogueira.
+- Scrum Master: Com a responsabilidade de facilitar e aprimorar o uso do método SCRUM, temos XXXXXX assumindo esse papel. Sua função é manter a equipe alinhada e garantir a eficácia do processo é fundamental para nosso progresso contínuo.
+- Product Owner: XXXXXXX atua como nossa Product Owner, representando os interesses dos stakeholders e garantindo que o projeto atenda às expectativas e necessidades dos usuários finais.
+- Equipe de Desenvolvimento: Para a construção do software, contamos com a competência técnica e a colaboração de XXXXX e XXXXXX. Suas habilidades em trazer conceitos e soluções, é fundamental para o avanço do projeto.
+- Equipe de Design: A criatividade e a estética do projeto são mantidas pela contribuição de XXXXX, que traz uma visão única para a interface e a experiência do usuário.
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-> - [Os papéis do Scrum e a verdade sobre cargos nessa técnica](https://www.atlassian.com/br/agile/scrum/roles)
+Essa divisão de papéis e responsabilidades reflete nosso compromisso em garantir uma colaboração e eficaz no nosso grupo durante o projeto. Cada membro traz habilidades importantes para o projeto, e garantirá que estejamos prontos para enfrentar qualquer desafio e alcançar o objetivo final de terminar o projeto com sucesso.
 
 ### Processo
 
