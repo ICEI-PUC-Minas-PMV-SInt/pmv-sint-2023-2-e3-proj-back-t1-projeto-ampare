@@ -58,7 +58,6 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 | Mônica [voluntária]      | Ter mais informações sobre como apoiar organizações que atuam em situações de emergência | Ocupar meu tempo e ajudar pessoas                   |
 | Luísa [funcionária ONG]  | Entrar em contato com potenciais voluntários                                             | Recrutá-los para apoiar em situações de crise       |
 | Luísa [funcionária ONG]  | Disponibilizar mais informações sobre a atuação da minha ONG                             | Que mais pessoas conheçam o trabalho e se mobilizem |
-| Administrador do sistema | Alterar permissões                                                                       | Permitir que possam administrar contas              |
 
 ## Requisitos
 
