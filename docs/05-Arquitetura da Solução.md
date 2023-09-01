@@ -18,7 +18,7 @@ Será utilizado o GitHub Pages como ambiente de hospedagem da aplicação do Pro
 O Diagrama de classes mostrado na Figura abaixo, mapeia a estrutura da aplicação baseado nas suas classes, atributos e métodos respectivos, bem como as relações existentes entre as classes existentes.
 
 
-![Diagrama de Classes](/docs/img/diagrama-de-classes.jpeg)
+![Diagrama de Classes](/docs/img/diagrama-de-classes-ampare.png)
 
 
 ## Modelo ER
