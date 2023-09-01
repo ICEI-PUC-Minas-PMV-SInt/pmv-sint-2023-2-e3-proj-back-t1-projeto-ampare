@@ -23,8 +23,12 @@ A metodologia é mais do que apenas um processo, é a essência que mantém noss
 
 ## Relação de Ambientes de Trabalho
 
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito deverá ser apresentada em uma tabela que especifica que detalha Ambiente, Plataforma e Link de Acesso. 
-Nota: Vide documento modelo do estudo de caso "Portal de Notícias" e defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
+| Ambiente                      | Plataforma             | Link de Acesso                                               |
+|------------------------------|------------------------|---------------------------------------------------------------|
+| Repositório de código fonte   | GitHub                 | [Repositório no GitHub](https://github.com) |
+| Documentos do projeto         | Microsoft Teams / Sharepoint | Teams/Sharepoint do Grupo no ambiente da PUC-MG    |
+| Projeto de Interface e Wireframes | Figma              | [Aplicação Web: Conectar voluntários com causas sociais – Figma](link_aqui) |
+| Gerenciamento do Projeto      | GitHub Projects                 | [Eixo 3 | GitHub Projects](link_aqui) 
 
 ## Controle de Versão
 
@@ -45,10 +49,10 @@ O GitHub não apenas oferece um espaço que centraliza e armazena o código-font
 
 A equipe do projeto é organizada de forma clara e colaborativa, atribuindo papéis específicos a cada membro do grupo:
 
-- Scrum Master: Com a responsabilidade de facilitar e aprimorar o uso do método SCRUM, temos XXXXXX assumindo esse papel. Sua função é manter a equipe alinhada e garantir a eficácia do processo é fundamental para nosso progresso contínuo.
-- Product Owner: XXXXXXX atua como nossa Product Owner, representando os interesses dos stakeholders e garantindo que o projeto atenda às expectativas e necessidades dos usuários finais.
-- Equipe de Desenvolvimento: Para a construção do software, contamos com a competência técnica e a colaboração de XXXXX e XXXXXX. Suas habilidades em trazer conceitos e soluções, é fundamental para o avanço do projeto.
-- Equipe de Design: A criatividade e a estética do projeto são mantidas pela contribuição de XXXXX, que traz uma visão única para a interface e a experiência do usuário.
+- Scrum Master: Com a responsabilidade de facilitar e aprimorar o uso do método SCRUM, temos Maria Michele Freitas assumindo esse papel. Sua função é manter a equipe alinhada e garantir a eficácia do processo é fundamental para nosso progresso contínuo.
+- Product Owner: Nicolas Wulk atua como nossa Product Owner, representando os interesses dos stakeholders e garantindo que o projeto atenda às expectativas e necessidades dos usuários finais.
+- Equipe de Desenvolvimento: Para a construção do software, contamos com a competência técnica e a colaboração de Angélica Almeida e Raquel Bonjardim. Suas habilidades em trazer conceitos e soluções, são fundamentais para o avanço do projeto.
+- Equipe de Design: A criatividade e a estética do projeto são mantidas pela contribuição de Matheus Soares, que traz uma visão única para a interface e a experiência do usuário.
 
 Essa divisão de papéis e responsabilidades reflete nosso compromisso em garantir uma colaboração e eficaz no nosso grupo durante o projeto. Cada membro traz habilidades importantes para o projeto, e garantirá que estejamos prontos para enfrentar qualquer desafio e alcançar o objetivo final de terminar o projeto com sucesso.
 
