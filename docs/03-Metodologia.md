@@ -3,7 +3,23 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+Metodologia
+
+Nossa abordagem metodológica é fundamental para conduzir o projeto "Ampare" de maneira eficiente e colaborativa. Nosso foco está na criação de um ambiente de trabalho otimizado e na adoção de metodologias ágeis para alcançar resultados.
+
+Gestão de Código e Tarefas
+
+Em relação à gestão do nosso código-fonte e das tarefas envolvidas, aproveitamos a versatilidade oferecida pelo GitHub. Utilizamos cards configurados para definir e planejar cada implementação e manutenção necessária para o desenvolvimento contínuo do nosso software. Além disso, regularmente nos reunimos por meio de encontros semanais, utilizando ferramentas de comunicação. Essas reuniões são essenciais para sincronizar nossas atividades, alinhar estratégias e manter a coesão da equipe e do conteúdo produzido.
+
+Organização com SCRUM
+
+Optamos pelo método SCRUM para orientar o desenvolvimento do projeto, uma escolha que se mostrou válida para manter a produtividade e o gerenciamento eficaz de tarefas e projetos através de ciclos. Esses ciclos de trabalho focados nos ajudam a manter o foco nas metas imediatas, enquanto também mantemos a flexibilidade para ajustar nossa abordagem conforme necessário. A metodologia SCRUM se destaca como uma abordagem que promove a fluidez e dinamismo na realização de projetos, sendo uma ferramenta essencial para equipes alcançarem sucesso de maneira consistente. 
+
+Ferramentas para Colaboração e Design
+
+Escolhemos ferramentas que são eficazes e colaborativas. Para a criação e edição de interfaces e wireframes, utilizamos o Figma, uma ferramenta que nos permite visualizar nossas ideias de maneira tangível. Além disso, para manter a comunicação em grupo fluida e constante, utilizamos uma combinação de grupo no whatsapp e teams para reuniões. Essas plataformas são essenciais para manter nossa equipe alinhada e informada.
+
+A metodologia é mais do que apenas um processo, é a essência que mantém nosso projeto e bem-sucedido. Ao adotar atitudes inovadoras e ferramentas colaborativas, estamos criando um ambiente ideal para o crescimento e a realização das nossas metas dentro do projeto Ampare.
 
 ## Relação de Ambientes de Trabalho
 
