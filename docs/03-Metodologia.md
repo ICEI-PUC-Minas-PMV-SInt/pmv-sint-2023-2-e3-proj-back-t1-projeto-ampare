@@ -72,16 +72,10 @@ Nossa implementação do SCRUM envolve os seguintes pontos:
 
 ### Ferramentas
 
-As ferramentas empregadas no projeto são:
+Para garantir que o projeto Ampare seja bem-sucedido, são essas as ferramentas que empregamos:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+- Editor de Código: O Visual Studio Code, ou VsCode, é nossa escolha para o ambiente de desenvolvimento. Escolhemos ele devido à sua integração perfeita com nosso sistema de controle de versão. Isso permitirá gerenciar o código de maneira mais eficaz.
 
-O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
+- Ferramentas de Comunicação: Para manter uma comunicação ágil e eficaz entre os membros da equipe, utilizamos o Microsoft Teams e o WhatsApp. Ambas as ferramentas permitem que compartilhemos informações e coordenemos nossas atividades de maneira eficiente, até mesmo de forma assíncrona. 
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+- Ferramentas de Desenho de Telas e Diagramas: A criação de telas e diagramas desempenha um papel importante na definição da experiência do usuário. Utilizamos o Figma e o Miro para essas tarefas específicas. O Figma é uma escolha natural devido à sua capacidade de criar e iterar interfaces de usuário de forma colaborativa, enquanto o Miro nos ajuda a capturar e visualizar as necessidades da nossa solução por meio de diagramas claros e organizados.
