@@ -54,15 +54,17 @@ Essa divisão de papéis e responsabilidades reflete nosso compromisso em garant
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Planejamento e Gestáo Ágil de Projetos](https://pucminas.instructure.com/courses/87878/pages/unidade-2-tema-2-utilizacao-de-ferramentas-para-controle-de-versoes-de-software)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards)
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+No projeto "Ampare", optamos por adotar a metodologia ágil SCRUM para gerenciar o desenvolvimento do software de forma eficiente e flexível. Este processo garantirá que o projeto avance de maneira organizada, com ciclos de desenvolvimento bem definidos e entregas incrementais que atendam às necessidades dos usuários finais.
+
+Nossa implementação do SCRUM envolve os seguintes pontos:
+
+- Planejamento de Sprints: Para levantar os fluxos de requisitos e manter um cronograma claro, planejamos sprints regulares. Isso nos permitirá manter o foco em metas possíveis e alcançáveis a cada iteração.
+
+- Reuniões Semanais: Estabelecemos reuniões semanais para promover a comunicação e o alinhamento entre os membros da equipe. A equipe de desenvolvedores, o Scrum Master e o Product Owner dicutirão o progresso, desafios e planejarão as próximas etapas do projeto Ampare. 
+
+- Gerenciamento de Backlogs do Produto: Utilizamos o GitHub como nossa plataforma de gerenciamento de projetos, aproveitando os recursos oferecidos para manter e organizar nossos backlogs do produto. Com a ajuda de quadros de projeto, seguimos o modelo Kanban. Isso simplificará a gestão dos backlogs, permitindo que os requisitos sejam priorizados e alocados em cada sprint. Além disso, facilitará a atribuição de tarefas a membros da equipe, de forma pontual.
+
+- Board de Atividade: Para monitorar e visualizar o fluxo das tarefas ao longo de todo o ciclo de desenvolvimento, fazemos uso de um board de atividades. Isso nos permitirá acompanhar o progresso das tarefas, identificar problemas e garantirá que o trabalho fluia de acordo com os prazos esperados.
 
 ### Ferramentas
 
