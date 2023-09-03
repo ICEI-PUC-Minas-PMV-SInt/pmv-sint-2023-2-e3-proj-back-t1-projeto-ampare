@@ -24,8 +24,8 @@ A metodologia é mais do que apenas um processo, é a essência que mantém noss
 |------------------------------|------------------------|---------------------------------------------------------------|
 | Repositório de código fonte   | GitHub                 | [Repositório no GitHub](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e3-proj-back-t1-projeto-ampare) |
 | Projeto de Interface e Wireframes | Figma              | [Aplicação Web: Conectar voluntários com causas sociais – Figma](https://www.figma.com/file/Q4B4NgBm0utmYofu6dvdjA/Untitled?type=design&node-id=0-1&mode=design&t=CWGTKUzXSc9SG1Hw-0) |
-| Gerenciamento do Projeto      | GitHub Projects                 | [Eixo 3] | [GitHub Projects](https://github.com/orgs/ICEI-PUC-Minas-PMV-SInt/projects/9) |
-| Diagrama de Fluxos            | Miro                     | [Miro - Diagrama de Fluxos](https://miro.com/app/board/uXjVMpEOFts=/?share_link_id=596785977316) |
+| Gerenciamento do Projeto      | GitHub Projects       | [Eixo 3 - GitHub Projects](https://github.com/orgs/ICEI-PUC-Minas-PMV-SInt/projects/9) |
+| Diagrama de Fluxos            | Miro                   | [Miro - Diagrama de Fluxos](https://miro.com/app/board/uXjVMpEOFts=/?share_link_id=596785977316) |
 | Diagrama de Classes           | Lucidchart              | [Diagrama de classes Ampare](https://lucid.app/lucidchart/971486c1-1ee6-4143-b049-1456c293d444/edit?viewport_loc=-2001%2C-3299%2C3107%2C1478%2C0_0&invitationId=inv_39bea3de-29b8-435e-849f-bddcafe1e8a0) |
 
 
