@@ -90,9 +90,14 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos.
+Nossa aplicação contará com diagramas UML (linguagem de modelagem unificada), que tem como objetivo tornar a vizualização das representações de arquitetura, design e implementação muito mais fácil e universalizada. Dentre os diversos tipos de diagramas UML tem-se o diagrama de caso de uso que será abordado neste tópico. 
+Os diagramas de caso de uso são representações que têm como objetivo demonstrar as diversas formas que os usuários têm de interagir com a aplicação em questão. O diagrama fornece uma visão simplificada e permite que a equipe envolvida no projeto tenham uma visão de todos os cenários em que há interação entre o sistema e pessoas, organizações e outros sistemas, dá uma visão do escopo do projeto e permite que a equipe defina e discuta as metas a serem atingidas pelo sistema em desenvolvimento.
+No diagrama estão representados o sistema, os casos de uso e os atores envolvidos, bem como a forma como todos irão interagir.
+Abaixo encontra-se a representação em diagrama de casos de uso do Projeto Ampare:
+![Diagrama de casos de Uso Ampare](/docs/img/caso_de_uso.png)
+A imagem do diagrama poderá também ser acessada no link do site [LucidChart]()
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
+
 
 > **Links Úteis**:
 >
