@@ -94,8 +94,12 @@ Nossa aplicação contará com diagramas UML (linguagem de modelagem unificada),
 Os diagramas de caso de uso são representações que têm como objetivo demonstrar as diversas formas que os usuários têm de interagir com a aplicação em questão. O diagrama fornece uma visão simplificada e permite que a equipe envolvida no projeto tenham uma visão de todos os cenários em que há interação entre o sistema e pessoas, organizações e outros sistemas, dá uma visão do escopo do projeto e permite que a equipe defina e discuta as metas a serem atingidas pelo sistema em desenvolvimento.
 No diagrama estão representados o sistema, os casos de uso e os atores envolvidos, bem como a forma como todos irão interagir.
 Abaixo encontra-se a representação em diagrama de casos de uso do Projeto Ampare:
+
 ![Diagrama de casos de Uso Ampare](/docs/img/caso_de_uso.png)
-A imagem do diagrama poderá também ser acessada no link do site [LucidChart]()
+
+A imagem do diagrama poderá também ser acessada no link do site [LucidChart](https://lucid.app/lucidchart/a8798927-3819-4b8d-a7b3-f642ab7a3310/edit?page=0_0&invitationId=inv_7a9af339-a918-4fc0-8668-4545849a38e3#)
+
+
 
 
 
