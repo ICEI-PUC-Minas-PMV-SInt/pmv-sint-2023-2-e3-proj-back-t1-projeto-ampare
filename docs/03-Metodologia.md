@@ -23,10 +23,11 @@ A metodologia é mais do que apenas um processo, é a essência que mantém noss
 | Ambiente                      | Plataforma             | Link de Acesso                                               |
 |------------------------------|------------------------|---------------------------------------------------------------|
 | Repositório de código fonte   | GitHub                 | [Repositório no GitHub](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e3-proj-back-t1-projeto-ampare) |
-| Documentos do projeto         | Microsoft Teams / Sharepoint | Teams/Sharepoint do Grupo no ambiente da PUC-MG    |
 | Projeto de Interface e Wireframes | Figma              | [Aplicação Web: Conectar voluntários com causas sociais – Figma](https://www.figma.com/file/Q4B4NgBm0utmYofu6dvdjA/Untitled?type=design&node-id=0-1&mode=design&t=CWGTKUzXSc9SG1Hw-0) |
 | Gerenciamento do Projeto      | GitHub Projects                 | [Eixo 3 | GitHub Projects](https://github.com/orgs/ICEI-PUC-Minas-PMV-SInt/projects/9) |
 | Diagrama de Fluxos            | Miro                     | [Miro - Diagrama de Fluxos](https://miro.com/app/board/uXjVMpEOFts=/?share_link_id=596785977316) |
+| Diagrama de Classes           | Lucidchart              | [Diagrama de classes Ampare](https://lucid.app/lucidchart/971486c1-1ee6-4143-b049-1456c293d444/edit?viewport_loc=-2001%2C-3299%2C3107%2C1478%2C0_0&invitationId=inv_39bea3de-29b8-435e-849f-bddcafe1e8a0) |
+
 
 ## Controle de Versão
 
@@ -79,6 +80,5 @@ Para garantir que o projeto Ampare seja bem-sucedido, utilizamos as seguintes fe
 
 - **Ferramentas de Comunicação:** Para manter uma comunicação ágil e eficaz entre os membros da equipe, utilizamos o Microsoft Teams e o WhatsApp. Ambas as ferramentas permitem que compartilhemos informações e coordenemos nossas atividades de maneira eficiente, até mesmo de forma assíncrona.
 
-- **Ferramentas de Desenho de Telas e Diagramas:** A criação de telas e diagramas desempenha um papel importante na definição da experiência do usuário. Utilizamos o Figma e o Miro para essas tarefas específicas. O Figma é uma escolha natural devido à sua capacidade de criar e iterar interfaces de usuário de forma colaborativa, enquanto o Miro nos ajuda a capturar e visualizar as necessidades da nossa solução por meio de diagramas claros e organizados.
-
+- **Ferramentas de Desenho de Telas e Diagramas:** A criação de telas e diagramas desempenha um papel importante na definição da experiência do usuário. Utilizamos o Figma e o Miro para essas tarefas específicas. O Figma é uma escolha natural devido à sua capacidade de criar e iterar interfaces de usuário de forma colaborativa, enquanto o Miro nos ajuda a capturar e visualizar as necessidades da nossa solução por meio de diagramas claros e organizados. Além disso, para diagramas de classes, usamos o Lucidchart, que oferece uma plataforma versátil para criar e visualizar diagramas de classes.
 
