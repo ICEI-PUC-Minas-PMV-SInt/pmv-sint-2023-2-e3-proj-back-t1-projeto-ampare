@@ -58,7 +58,6 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 | Mônica [voluntária]      | Ter mais informações sobre como apoiar organizações que atuam em situações de emergência | Ocupar meu tempo e ajudar pessoas                   |
 | Luísa [funcionária ONG]  | Entrar em contato com potenciais voluntários                                             | Recrutá-los para apoiar em situações de crise       |
 | Luísa [funcionária ONG]  | Disponibilizar mais informações sobre a atuação da minha ONG                             | Que mais pessoas conheçam o trabalho e se mobilizem |
-| Administrador do sistema | Alterar permissões                                                                       | Permitir que possam administrar contas              |
 
 ## Requisitos
 
@@ -99,6 +98,7 @@ Abaixo encontra-se a representação em diagrama de casos de uso do Projeto Ampa
 ![Diagrama de casos de Uso Ampare](/docs/img/casos_de_uso.png)
 
 A imagem do diagrama poderá também ser acessada no link do site [LucidChart](https://lucid.app/lucidchart/a8798927-3819-4b8d-a7b3-f642ab7a3310/edit?page=0_0&invitationId=inv_7a9af339-a918-4fc0-8668-4545849a38e3#)
+=======
 
 > **Links Úteis**:
 >

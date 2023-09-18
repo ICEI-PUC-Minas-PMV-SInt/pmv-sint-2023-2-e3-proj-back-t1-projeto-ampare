@@ -1,29 +1,34 @@
-# TÍTULO DO PROJETO
+# 🤲 PROJETO AMPARE WEB ❤️ - BACKEND 
+![Banner Projeto Ampare](/docs/img/banner-readme.png)
 
-`CURSO`
+### 🎓 Curso Sistemas para a Internet - PUC-MG
 
-`DISCIPLINA`
+### Eixo 3 - Projeto: Desenvolvimento Web Back-End - Turma 01 - 2023/2
 
-`SEMESTRE`
+O Projeto Ampare é uma aplicação web elaborada em ambiente acadêmico que objetiva a criação de uma plataforma de ajuda humanitária, o AMPARE, com o intuito de conectar voluntários e ONGs que necessitem de auxílio em atividades, causas e ações sociais urgentes. A plataforma fornecerá o acesso intuitivo dos voluntários à causas que necessitem de ajuda urgente, compartilhando informações e conectando-os diretamente às ONGs.
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
-## Integrantes
+## 🧠 Integrantes
+<ul>
+<li>Angélica Almeida - [@angelicasa](https://github.com/angelicasa)
+<li>Matheus Soares de Sales - [@matheus-9](https://github.com/matheus-9)
+<li>Maria Michele de Freitas - [@mmichelefreitas](https://github.com/mmichelefreitas)
+<li>Nicolas F. Petrachin Wulk - [@nickwulk](https://github.com/nickwulk)
+<li>Raquel Bomjardim Ferreira - [@bomjardimraquel](https://github.com/bomjardimraquel)
+<ul>
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
 
-## Orientador
+## ✏️ Orientador
 
-* Nome completo do professor 1
+Prof. Will Ricardo dos Santos Machado
 
-## Instruções de utilização
+
+## 📝 Instruções de utilização
 
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
 
-# Documentação
+
+## 📁 Documentação
 
 <ol>
 <li><a href="docs/01-Documentação de Contexto.md"> Documentação de Contexto</a></li>
@@ -41,10 +46,15 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 <li><a href="docs/13-Referências.md"> Referências</a></li>
 </ol>
 
-# Código
+
+## 💻 Código
 
 <li><a href="src/README.md"> Código Fonte</a></li>
 
-# Apresentação
+
+## 💬 Apresentação
 
 <li><a href="presentation/README.md"> Apresentação da solução</a></li>
+
+
+🚧 Projeto Ampare 🚀 Em construção... 🚧
