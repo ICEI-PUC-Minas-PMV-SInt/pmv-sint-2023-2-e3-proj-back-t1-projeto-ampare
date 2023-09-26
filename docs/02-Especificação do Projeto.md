@@ -48,7 +48,7 @@ Tendo como base essa análise, o projeto utilizou a ferramenta das personas para
 **Hobbies**: É uma pessoa caseira, gosta de receber os amigos e preparar refeições com todos. Já desenhou por prazer, mas há tempos não o faz. Adora maratonar séries com o namorado e ficar com suas duas gatas em casa.
 **Tecnologia**: Utiliza tecnologia desde a adolescência, passa bastante tempo no Instagram e abandonou o Facebook recentemente. Utiliza bastante o Linkedin para contatos profissionais, especialmente por conta de sua função. Sua principal ferramenta de comunicação é o Whatsapp. Possui um celular da Samsung com OS Android.
 
-<img src="./img/persona_Luisa.jpg" width="150">
+<img src="./img/persona_Lais.jpg" width="150">
 
 **Nome**: Laís Caldas
 **Idade**: 22
@@ -62,7 +62,7 @@ Tendo como base essa análise, o projeto utilizou a ferramenta das personas para
 **Hobbies**: Escrever poemas, cantar e caminhar. 
 **Tecnologia**: Utiliza as redes sociais (Instagram) para publicar seus poemas, músicas e para mobilizar as pessoas sobre causas importantes. 
 
-<img src="./img/persona_Luisa.jpg" width="150">
+<img src="./img/persona_Leandro.jpg" width="150">
 
 **Nome**: Leandro Campos
 **Idade**: 55
