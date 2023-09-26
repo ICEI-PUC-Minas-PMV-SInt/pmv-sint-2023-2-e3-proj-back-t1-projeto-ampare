@@ -87,7 +87,7 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 | Luísa [funcionária ONG]  | Entrar em contato com potenciais voluntários                                             | Recrutá-los para apoiar em situações de crise       |
 | Luísa [funcionária ONG]  | Disponibilizar mais informações sobre a atuação da minha ONG                             | Que mais pessoas conheçam o trabalho e se mobilizem |
 | Laís [Voluntária]  | Estar por dentro de projetos sociais e ajudar de onde quer que eu esteja                       | Colaborar com causas sociais das mais variadas maneiras |
-| Leandro [diretor ONG]  | Notificar potenciais voluntários, em situações de urgência, com mais velocidade            | Encontrar voluntários para projetos urgenciais |
+| Leandro [diretor ONG]  | Encontrar potenciais voluntários em situações de urgência                                  | Ter mais apoio nos projetos de emergência da ONG |
 
 ## Requisitos
 
@@ -100,6 +100,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RF-001 | O sistema deve permitir a criação, edição, exclusão e visualização dos dados de voluntários, contendo informações básicas (nome, e-mail, telefone, endereço, interesses, etc.). | Alta       |
 | RF-002 | O sistema deve permitir a criação, edição, exclusão e visualização do cadastro de ONGs                                                                                          | Alta       |
 | RF-003 | O sistema deve permitir a criação, edição, exclusão e visualização do cadastro de eventos e oportunidades vinculados às ONGs                                                    | Alta       |
+| RF-004 | O sistema deve permitir que a ONG marque um projeto como emergencial                                                                    
+                                       | Alta       |
+| RF-005 | O sistema deve sinalizar os projetos emergenciais aos voluntários                                                                       
+                                       | Alta       |                                       
 
 ### Requisitos não Funcionais
 
