@@ -48,6 +48,34 @@ Tendo como base essa análise, o projeto utilizou a ferramenta das personas para
 **Hobbies**: É uma pessoa caseira, gosta de receber os amigos e preparar refeições com todos. Já desenhou por prazer, mas há tempos não o faz. Adora maratonar séries com o namorado e ficar com suas duas gatas em casa.
 **Tecnologia**: Utiliza tecnologia desde a adolescência, passa bastante tempo no Instagram e abandonou o Facebook recentemente. Utiliza bastante o Linkedin para contatos profissionais, especialmente por conta de sua função. Sua principal ferramenta de comunicação é o Whatsapp. Possui um celular da Samsung com OS Android.
 
+<img src="./img/persona_Lais.jpg" width="150">
+
+**Nome**: Laís Caldas
+**Idade**: 22
+**Estado civil:** Solteira
+**Localidade**: Cabo Frio/RJ
+**Formação**: Letras - Português
+**Ocupação**: Professora de português e Poetisa
+**Renda média mensal**: R$ 2,5 mil
+**Mini-bio**: É solteira, Bacharel em Letras(PT), trabalha como Professora de Português em uma escola Municipal e tem um salário de R$ 2,5 mil reais por mês. A mesma atua como poetisa, de forma autônoma, e não possui uma religião específica.
+**Motivações e frustrações:** É uma amante da arte, dos livros e se preocupa com causas sociais. Se sente abatida quando vê seus alunos sofrendo ataques rascistas e quando nota as dificuldades financeiras de alguns, por conta da alta desigualdade. Deseja ser útil e mobilizar outros ajudar a toda e qualquer criança ou adulto que se encontra em uma situação vulnerável. 
+**Hobbies**: Escrever poemas, cantar e caminhar. 
+**Tecnologia**: Utiliza as redes sociais (Instagram) para publicar seus poemas, músicas e para mobilizar as pessoas sobre causas importantes. 
+
+<img src="./img/persona_Leandro.jpg" width="150">
+
+**Nome**: Leandro Campos
+**Idade**: 55
+**Estado civil:** Viúvo
+**Localidade**: Governador Valadares/MG
+**Formação**: Serviço Social
+**Ocupação**: Diretor da ONG "Missão Social"
+**Renda média mensal**: R$ 4 mil
+**Mini-bio**: É viúvo, Bacharel em Serviço Social, atua como Diretor de uma ONG em Minas Gerais ("Missão Social") e recebe, em média, R$ 4 mil reais por mês. 
+**Motivações e frustrações:** Ama participar de atividades sociais, por isso tem grande habilidade em relação ao seu trabalho. Após a perda de sua esposa intensificou sua colaboração em causas humanitárias e por isso criou a Organização Social Sem Fins Lucrativos "Missão Social" que ajuda pessoas em situação vulnerável, mediante tragédias e eventos traumáticos. Para o mesmo, um alcance maior das atividades da ONG seria um grande diferencial.
+**Hobbies**: Gosta de caminhar ao ar livre e ler. 
+**Tecnologia**: Utiliza as redes sociais para divulgar os projetos da ONG. 
+
 ## Histórias de Usuários
 
 A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
@@ -58,6 +86,8 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 | Mônica [voluntária]      | Ter mais informações sobre como apoiar organizações que atuam em situações de emergência | Ocupar meu tempo e ajudar pessoas                   |
 | Luísa [funcionária ONG]  | Entrar em contato com potenciais voluntários                                             | Recrutá-los para apoiar em situações de crise       |
 | Luísa [funcionária ONG]  | Disponibilizar mais informações sobre a atuação da minha ONG                             | Que mais pessoas conheçam o trabalho e se mobilizem |
+| Laís [Voluntária]  | Estar por dentro de projetos sociais e ajudar de onde quer que eu esteja                       | Colaborar com causas sociais das mais variadas maneiras |
+| Leandro [diretor ONG]  | Encontrar potenciais voluntários em situações de urgência                                  | Ter mais apoio nos projetos de emergência da ONG |
 
 ## Requisitos
 
@@ -70,6 +100,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RF-001 | O sistema deve permitir a criação, edição, exclusão e visualização dos dados de voluntários, contendo informações básicas (nome, e-mail, telefone, endereço, interesses, etc.). | Alta       |
 | RF-002 | O sistema deve permitir a criação, edição, exclusão e visualização do cadastro de ONGs                                                                                          | Alta       |
 | RF-003 | O sistema deve permitir a criação, edição, exclusão e visualização do cadastro de eventos e oportunidades vinculados às ONGs                                                    | Alta       |
+| RF-004 | O sistema deve permitir que a ONG marque um projeto como emergencial                                                 | Alta       |
+| RF-005 | O sistema deve sinalizar os projetos emergenciais aos voluntários                                                   | Alta       |
+                                      
 
 ### Requisitos não Funcionais
 
