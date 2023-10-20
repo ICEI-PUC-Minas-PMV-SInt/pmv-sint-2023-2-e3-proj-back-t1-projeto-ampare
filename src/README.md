@@ -1,11 +1,12 @@
 # Instruções de utilização
 
-## Instalação do Site
+O projeto utiliza o framework ASP .NET Core MVC, com ORM Entity configurado, e gerando páginas via Razor Engine. 
+Foi utilizada a IDE Visual Studio, a qual permite rodar a aplicação por meio do IIS Express, que já vem configurado no projeto.
 
-O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores...
 
 ## Histórico de versões
 
-### [0.1.0] - DD/MM/AAAA
-#### Adicionado
-- Adicionado ...
+### [0.1.0] - 20/10/2023
+#### Configuração inicial
+Feitas as configurações iniciais do projeto, com criação das classes, incluindo o DbContext.
+
