@@ -48,3 +48,41 @@ CREATE TABLE projeto_voluntario (
 -- Adiciona a restrição de verificação `idade > 0` à coluna `idade` da tabela `cadastro_voluntario`
 ALTER TABLE cadastro_voluntario
 ADD CONSTRAINT idade_valida CHECK (idade > 0);
+
+
+--Fazendo atualização na tabela projeto, adicionando cod_ong como chave estrangeira--
+ALTER TABLE projeto
+ADD CONSTRAINT FK_CodOng
+FOREIGN KEY (cod_ong)
+REFERENCES cadastro_ong (cod_ong);
+
+
+--Adiconando dados fictícios nas respectivas tabelas--
+
+
+--TABELA CADASTRO--
+INSERT INTO cadastro (login, senha, nome, email, telefone)
+VALUES ("pessoa02", "123456", "José Silva, pessoa.02@gmail.com", "87999778072" );
+
+
+--TABELA CADASTRO_ONG--
+
+INSERT INTO cadastro_ong (cod_ong, endereco, status)
+VALUES ("01", "Rua Conêgo Mariano", "Ativo");
+
+
+--TABELA CADASTRO_VOLUNTARIO--
+
+INSERT INTO cadastro_voluntario (id_voluntario, nome, idade)
+VALUES ("01", "José Silva", "22");
+
+
+--TABELA PROJETO--
+
+INSERT INTO projeto (cod_projeto, ong_vinculada, cidade, uf, vagas)
+VALUES ("02", "01", "São Paulo", "SP", "5");
+
+--TABELA PROJETO_VOLUNTARIO--
+
+INSERT INTO projeto_voluntario (cod_projeto, cod_voluntario)
+VALUES ("02", "01");
