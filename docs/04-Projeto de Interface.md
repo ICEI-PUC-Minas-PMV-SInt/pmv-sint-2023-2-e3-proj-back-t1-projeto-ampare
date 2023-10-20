@@ -8,26 +8,12 @@ Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada
 
 ## Diagrama de Fluxo
 
-<<<<<<< Updated upstream
-O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo e muitas vezes sem a necessidade do desenho do design das telas da interface. Isso permite que o design das interações seja bem planejado e gere impacto na qualidade no design do wireframe interativo que será desenvolvido logo em seguida.
-
-O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem internamente a indicação dos principais elementos de interface - tais como menus e acessos - e funcionalidades, tais como editar, pesquisar, filtrar, configurar - e a conexão entre esses boxes a partir do processo de interação. Você pode ver mais explicações e exemplos https://www.lucidchart.com/blog/how-to-make-a-user-flow-diagram.
-
-![Exemplo de Diagrama de Fluxo](img/fluxo-navegação.jpg)
-![Link para Acesso à página de edição do Diagrama de Fluxo de Navegação](https://lucid.app/lucidchart/5e8b4f08-fd83-4154-a9a0-679ea5f29872/edit?invitationId=inv_57250cf7-ee13-4c6c-b6c5-4aba1e6593ed&page=0_0#)
-=======
 Também chamado de Fluxo de navegação, é uma representação na forma de fluxograma que neste caso descreverá a aplicação Web Ampare, com o objetivo de representar a forma como os usuários utilizarão o sistema.
+
 O diagrama apresenta o estudo do fluxo de interação do usuário com a aplicação e muitas vezes sem a necessidade do desenho do design das telas da interface. Isso permite que o design das interações seja bem planejado e gere impacto na qualidade no design do wireframe interativo que será desenvolvido logo em seguida.
 
-![Exemplo de Diagrama de Fluxo](img/diagrama-fluxo-navegacao.jpg)
-![Link:https://miro.com/app/board/uXjVMpEOFts=/?share_link_id=596785977316]
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas de Fluxo”.
-
-> **Links Úteis**:
->
-> - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
->>>>>>> Stashed changes
+![Diagrama de Fluxo de Navegação](img/diagrama-fluxo-navegacao.jpg)
+![Link para Acesso à página de edição do Diagrama de Fluxo de Navegação](https://lucid.app/lucidchart/5e8b4f08-fd83-4154-a9a0-679ea5f29872/edit?invitationId=inv_57250cf7-ee13-4c6c-b6c5-4aba1e6593ed&page=0_0#)
 
 ## Wireframes
 
