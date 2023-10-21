@@ -26,37 +26,37 @@ Inclui testes de funcionalidades principais, requisitos não funcionais e intera
 
 | Requisitos Associados | Objetivo do Teste | Critérios de Êxito |
 |----------------------|-------------------|-------------------|
-| - Casos de uso do ator "Voluntário" (Login) - Casos de uso do ator "ONG" (Login) - Casos de uso do ator "Administrador do Sistema" (Login) | Verificar se o sistema permite o login de voluntários, ONGs e administradores com sucesso. | - O sistema permite o login com as credenciais corretas. - O sistema exibe mensagens de erro apropriadas para credenciais inválidas.
+| Login | Verificar se o sistema permite o login de voluntários, ONGs e administradores com sucesso. | - O sistema permite o login com as credenciais corretas. - O sistema exibe mensagens de erro apropriadas para credenciais inválidas.
 
 ### CT-02: Teste de Cadastro de Voluntário
 
 | Requisitos Associados | Objetivo do Teste | Critérios de Êxito |
 |----------------------|-------------------|-------------------|
-| - Casos de uso do ator "Voluntário" (Cadastro) | Verificar se o sistema permite o cadastro de voluntários com sucesso. | - O sistema permite o cadastro com informações válidas. - Os dados do voluntário são armazenados corretamente no sistema.
+| Cadastro de voluntário | Verificar se o sistema permite o cadastro de voluntários com sucesso. | - O sistema permite o cadastro com informações válidas. - Os dados do voluntário são armazenados corretamente no sistema.
 
 ### CT-03: Teste de Cadastro de ONG
 
 | Requisitos Associados | Objetivo do Teste | Critérios de Êxito |
 |----------------------|-------------------|-------------------|
-| - Casos de uso do ator "ONG" (Cadastro) | Verificar se o sistema permite o cadastro de ONGs com sucesso. | - O sistema permite o cadastro com informações válidas. - Os dados da ONG são armazenados corretamente no sistema.
+| Cadastro de ONG | Verificar se o sistema permite o cadastro de ONGs com sucesso. | - O sistema permite o cadastro com informações válidas. - Os dados da ONG são armazenados corretamente no sistema.
 
 ### CT-04: Teste de Criação de Projeto/Evento pela ONG
 
 | Requisitos Associados | Objetivo do Teste | Critérios de Êxito |
 |----------------------|-------------------|-------------------|
-| - Casos de uso do ator "ONG" (Gerenciamento de Projetos/Eventos) | Verificar se o sistema permite que uma ONG crie projetos/eventos com sucesso. | - O sistema permite a criação de projetos/eventos com informações válidas. - Os projetos/eventos são armazenados corretamente no sistema.
+| Gerenciamento de Projetos/Eventos | Verificar se o sistema permite que uma ONG crie projetos/eventos com sucesso. | - O sistema permite a criação de projetos/eventos com informações válidas. - Os projetos/eventos são armazenados corretamente no sistema.
 
 ### CT-05: Teste de Marcar Projeto como Urgente pela ONG
 
 | Requisitos Associados | Objetivo do Teste | Critérios de Êxito |
 |----------------------|-------------------|-------------------|
-| - Casos de uso do ator "ONG" (Marcar Projeto como Urgente) | Verificar se o sistema permite que uma ONG marque um projeto como urgente com sucesso. | - O sistema permite a marcação de projeto como urgente. - Os projetos marcados como urgentes são sinalizados corretamente no sistema.
+| Marcar Projeto como Urgente | Verificar se o sistema permite que uma ONG marque um projeto como urgente com sucesso. | - O sistema permite a marcação de projeto como urgente. - Os projetos marcados como urgentes são sinalizados corretamente no sistema.
 
 ### CT-06: Teste de Verificação de Notificações de Projetos Urgentes
 
 | Requisitos Associados | Objetivo do Teste | Critérios de Êxito |
 |----------------------|-------------------|-------------------|
-| - Casos de uso do ator "Voluntário" (Notificações) | Verificar se o sistema notifica os voluntários sobre projetos urgentes. | - O sistema exibe notificações para voluntários sobre projetos marcados como urgentes.
+| Notificações | Verificar se o sistema notifica os voluntários sobre projetos urgentes. | - O sistema exibe notificações para voluntários sobre projetos marcados como urgentes.
 
  
 ## Ferramentas de Testes (Opcional)
