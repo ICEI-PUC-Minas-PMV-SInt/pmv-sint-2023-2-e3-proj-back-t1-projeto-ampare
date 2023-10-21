@@ -17,8 +17,10 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com a aplicaç
 
 ## Wireframes
 
-![Exemplo de Wireframe](<img/HOME%20(1).png>)
-![Exeplos das demais telas](img/telas%20restantes.png)
-![Protótipo de Fluxo entre telas](https://www.figma.com/file/W7buGia0YncI48JkA7DirP/Site-%7C-AMPARE?type=design&node-id=317-210930&mode=design&t=sYIKAzHoyihXtkGa-0)
+Wireframes são protótipos que podem ter baixa ou alta fidelidade e são usados como esboço para a criação posterior das telas do sistema. Nosso protótipo é de baixa fidelidade no que se refere ao design, porém permite navegação entre as telas e visualização abrangente da aplicação.
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+O diagrama apresentado abaixo mostra o mapa do site, contendo as várias telas que o sistema deverá possuir para que os diferentes tipos de usuário possam navegar. O wireframe e protótipo foram elaborados utilizado a ferramenta Figma e também poderão ser acessados através do link abaixo.
+
+![Wireframe Home Page](<img/HOME%20(1).png>)
+![Wireframe contendo demais telas](img/telas%20restantes.png)
+![Protótipo de Fluxo entre telas](https://www.figma.com/file/W7buGia0YncI48JkA7DirP/Site-%7C-AMPARE?type=design&node-id=317-210930&mode=design&t=sYIKAzHoyihXtkGa-0)
