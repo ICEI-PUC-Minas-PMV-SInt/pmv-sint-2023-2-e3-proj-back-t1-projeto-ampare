@@ -29,10 +29,11 @@ O Modelo ER representa, através de um diagrama, como as entidades (coisas, obje
 ## Esquema Relacional
 
 O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
+Segue abaixo imagem e link para acesso externo do projeto do modelo relacional.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
+![Modelo Relacional](/docs/img/modelo-relacional.jpg)
 
-> - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
+> - [Modelo Relacional](https://lucid.app/lucidchart/d5e220da-7cdc-4a0b-bb25-411f9ce13b67/edit?beaconFlowId=16CAC7D67A4F8ADA&invitationId=inv_1f554cf5-08a9-4c26-91ee-32ebbe9abbcd&page=0_0#)
 
 ## Modelo Físico (DDL)
 
