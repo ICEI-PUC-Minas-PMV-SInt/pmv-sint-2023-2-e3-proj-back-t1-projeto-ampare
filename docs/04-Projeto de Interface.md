@@ -19,17 +19,6 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com a aplicaç
 
 ![Exemplo de Wireframe](<img/HOME%20(1).png>)
 ![Exeplos das demais telas](img/telas%20restantes.png)
-
-> - [Link do Wireframes] (https://www.figma.com/file/W7buGia0YncI48JkA7DirP/Site-%7C-AMPARE?type=design&node-id=317%3A210930&mode=design&t=IBYxTHtlHzdgNkj1-1)
+![Protótipo de Fluxo entre telas](https://www.figma.com/file/W7buGia0YncI48JkA7DirP/Site-%7C-AMPARE?type=design&node-id=317-210930&mode=design&t=sYIKAzHoyihXtkGa-0)
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
-
-> **Links Úteis**:
->
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
