@@ -130,6 +130,9 @@ Abaixo encontra-se a representação em diagrama de casos de uso do Projeto Ampa
 
 ![Diagrama de casos de Uso Ampare](/docs/img/casos_de_uso.png)
 
+![Diagrama de caso de uso - Voluntário1](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e3-proj-back-t1-projeto-ampare/assets/107443453/2894a75a-c300-49d5-b9ce-d0d3309e2ff6)
+
+
 A imagem do diagrama poderá também ser acessada no link do site [LucidChart](https://lucid.app/lucidchart/a8798927-3819-4b8d-a7b3-f642ab7a3310/edit?page=0_0&invitationId=inv_7a9af339-a918-4fc0-8668-4545849a38e3#)
 =======
 
