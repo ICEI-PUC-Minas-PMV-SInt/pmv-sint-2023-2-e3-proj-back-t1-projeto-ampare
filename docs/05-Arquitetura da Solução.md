@@ -22,11 +22,9 @@ O Diagrama de classes mostrado na Figura abaixo, mapeia a estrutura da aplicaç�
 
 ## Modelo ER
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
+O Modelo ER representa, através de um diagrama, como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa. O mesmo foi elaborado com a ferramenta [Miro} (https://miro.com/app/dashboard/), podendo ser acessado em: [Link Modelo Entidade Relacionamento] (https://miro.com/app/board/uXjVNZZsi7U=/)
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
-
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
+![Diagrama ER](/docs/img/mer_ampare.jpg)
 
 ## Esquema Relacional
 
