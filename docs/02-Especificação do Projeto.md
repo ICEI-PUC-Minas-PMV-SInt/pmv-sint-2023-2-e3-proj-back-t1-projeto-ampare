@@ -134,6 +134,7 @@ Abaixo encontra-se a representação em diagrama de casos de uso do Projeto Ampa
 
 ![Diagrama de caso de uso - ONGs](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e3-proj-back-t1-projeto-ampare/assets/107443453/5d6b3826-b2b9-4293-89ea-9ded3d43127c)
 
+![Diagrama de caso de uso - Adm do sist](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e3-proj-back-t1-projeto-ampare/assets/107443453/70c761d2-1be6-401a-a9e7-2d0189655cb7)
 
 A imagem do diagrama poderá também ser acessada no link do site [LucidChart](https://lucid.app/lucidchart/a8798927-3819-4b8d-a7b3-f642ab7a3310/edit?page=0_0&invitationId=inv_7a9af339-a918-4fc0-8668-4545849a38e3#)
 =======
