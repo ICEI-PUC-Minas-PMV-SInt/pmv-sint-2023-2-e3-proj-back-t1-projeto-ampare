@@ -2,7 +2,6 @@
 
 namespace ampare_backend.Models
 {
-    [Table("projeto")]
     public class Projeto
     {
     }

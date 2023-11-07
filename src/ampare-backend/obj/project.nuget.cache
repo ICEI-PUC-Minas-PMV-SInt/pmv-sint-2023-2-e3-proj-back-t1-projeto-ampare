@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0Owli4UascGjQ63C5/6OqFKHDMMtDrdA5TtC16dZZnd27Gz/2F9jJK0qr+ROSlt7dlHr7gzOqqcOiGK3PgFo1Q==",
+  "dgSpecHash": "rVTQH/tsTStsJLjP4HyNoZAzcd5WXdSe83PhjUTRSxhwU3iNX7CxGzVjk1qm2ZHrepe/UCZwtt7gTkE8S3ypNw==",
   "success": true,
   "projectFilePath": "C:\\Users\\nicol\\source\\repos\\pmv-sint-2023-2-e3-proj-back-t1-projeto-ampare-config\\src\\ampare-backend\\ampare-backend.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\nicol\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\nicol\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
