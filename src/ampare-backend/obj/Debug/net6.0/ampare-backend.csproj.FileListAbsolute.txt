@@ -566,3 +566,4 @@ C:\Users\nicol\source\repos\pmv-sint-2023-2-e3-proj-back-t1-projeto-ampare-confi
 C:\Users\nicol\source\repos\pmv-sint-2023-2-e3-proj-back-t1-projeto-ampare-config\src\ampare-backend\obj\Debug\net6.0\ampare-backend.pdb
 C:\Users\nicol\source\repos\pmv-sint-2023-2-e3-proj-back-t1-projeto-ampare-config\src\ampare-backend\obj\Debug\net6.0\ampare-backend.genruntimeconfig.cache
 C:\Users\nicol\source\repos\pmv-sint-2023-2-e3-proj-back-t1-projeto-ampare-config\src\ampare-backend\obj\Debug\net6.0\ref\ampare-backend.dll
+C:\Users\nicol\source\repos\pmv-sint-2023-2-e3-proj-back-t1-projeto-ampare-config\src\ampare-backend\bin\Debug\net6.0\BCrypt.Net-Next.dll

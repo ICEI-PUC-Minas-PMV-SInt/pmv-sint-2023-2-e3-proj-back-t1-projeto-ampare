@@ -2,7 +2,6 @@
 
 namespace ampare_backend.Models
 {
-    [Table("Cadastro_voluntario")]
     public class CadastroVoluntario
     {
         [Key]

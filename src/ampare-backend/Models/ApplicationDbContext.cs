@@ -6,15 +6,23 @@ namespace ampare_backend.Models
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
-        public DbSet<Cadastro> Cadastros { get; set; }
+        // DB cadastro
+        // public DbSet<Cadastro> Cadastros { get; set; }
 
-        public DbSet<CadastroOng> CadastroOngs { get; set; }
+        // DB Ong
+        // public DbSet<CadastroOng> CadastroOngs { get; set; }
 
-        public DbSet<CadastroVoluntario> CadastroVoluntarios { get; set; }
+        // DB Voluntario
+        //public DbSet<CadastroVoluntario> CadastroVoluntarios { get; set; }
 
-        public DbSet<Projeto> Projetos { get; set; }
+        // DB Projeto
+        // public DbSet<Projeto> Projetos { get; set; }
 
-        public DbSet<ProjetoVoluntario> ProjetoVoluntarios { get; set; }
+        // DB ProjetoVoluntario
+        //public DbSet<ProjetoVoluntario> ProjetoVoluntarios { get; set; }
+
+        // DB Usuario
+        public DbSet<Usuario> Usuarios { get; set; }
 
 
     }
