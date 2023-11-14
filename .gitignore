@@ -1,2 +1,5 @@
 src/ampare-backend/obj
 src/ampare-backend/bin
+
+# Ignorar arquivos :Zone.Identifier
+**/*.Identifier
