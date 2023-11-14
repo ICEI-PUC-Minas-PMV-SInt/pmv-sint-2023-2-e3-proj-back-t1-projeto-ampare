@@ -1,3 +1,4 @@
+#nullable enable
 namespace ampare_backend.Models
 {
     public class ErrorViewModel
