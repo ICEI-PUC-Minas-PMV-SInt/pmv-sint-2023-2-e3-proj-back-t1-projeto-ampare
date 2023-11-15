@@ -1,6 +1,6 @@
 # Metodologia
 
-**Pré-requisitos:** [Documentação de Especificação](2-Especificacao-do-Projeto.md)
+[Documentação de Especificação](2-Especificacao-do-Projeto.md)
 
 Nossa abordagem metodológica é fundamental para conduzir o projeto Ampare de maneira eficiente e colaborativa. Nosso foco está na criação de um ambiente de trabalho otimizado e na adoção de metodologias ágeis para alcançar resultados.
 
@@ -50,7 +50,7 @@ A equipe do projeto é organizada de forma clara e colaborativa, atribuindo pap�
 
 - Scrum Master: Com a responsabilidade de facilitar e aprimorar o uso do método SCRUM, temos Maria Michele Freitas assumindo esse papel. Sua função é manter a equipe alinhada e garantir a eficácia do processo é fundamental para nosso progresso contínuo.
 - Product Owner: Nicolas Wulk atua como nossa Product Owner, representando os interesses dos stakeholders e garantindo que o projeto atenda às expectativas e necessidades dos usuários finais.
-- Equipe de Desenvolvimento: Para a construção do software, contamos com a competência técnica e a colaboração de Angélica Almeida e Raquel Bonjardim. Suas habilidades em trazer conceitos e soluções, são fundamentais para o avanço do projeto.
+- Equipe de Desenvolvimento: Para a construção do software, contamos com a competência técnica e a colaboração de Angélica Almeida e Raquel Bomjardim. Suas habilidades em trazer conceitos e soluções, são fundamentais para o avanço do projeto.
 - Equipe de Design: A criatividade e a estética do projeto são mantidas pela contribuição de Matheus Soares, que traz uma visão única para a interface e a experiência do usuário.
 
 Cada membro traz habilidades importantes para o projeto, e garantirá que estejamos prontos para enfrentar qualquer desafio e alcançar o objetivo final de terminar o projeto com sucesso.

@@ -137,12 +137,4 @@ Abaixo encontra-se a representação em diagrama de casos de uso do Projeto Ampa
 ![Diagrama de caso de uso - Adm do sist](https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e3-proj-back-t1-projeto-ampare/assets/107443453/70c761d2-1be6-401a-a9e7-2d0189655cb7)
 
 A imagem do diagrama poderá também ser acessada no link do site [LucidChart](https://lucid.app/lucidchart/a8798927-3819-4b8d-a7b3-f642ab7a3310/edit?page=0_0&invitationId=inv_7a9af339-a918-4fc0-8668-4545849a38e3#)
-=======
-
-> **Links Úteis**:
->
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+=======;
