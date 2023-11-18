@@ -10,7 +10,7 @@ namespace ampare_backend.Models
         // public DbSet<Cadastro> Cadastros { get; set; }
 
         // DB Ong
-        // public DbSet<CadastroOng> CadastroOngs { get; set; }
+        public DbSet<CadastroOng> CadastroOngs { get; set; }
 
         // DB Voluntario
         //public DbSet<CadastroVoluntario> CadastroVoluntarios { get; set; }
