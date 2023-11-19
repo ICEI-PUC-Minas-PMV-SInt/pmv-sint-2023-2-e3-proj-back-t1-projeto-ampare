@@ -24,17 +24,17 @@ namespace ampare_backend.Migrations
 
             modelBuilder.Entity("ampare_backend.Models.Cadastro", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("IdCadastro")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdCadastro"), 1L, 1);
 
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Endereço")
+                    b.Property<string>("Endereco")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Login")
@@ -44,8 +44,9 @@ namespace ampare_backend.Migrations
                     b.Property<string>("Nome")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Senha")
-                        .HasColumnType("int");
+                    b.Property<string>("Senha")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("Status")
                         .HasColumnType("bit");
@@ -53,9 +54,9 @@ namespace ampare_backend.Migrations
                     b.Property<string>("Telefone")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+                    b.HasKey("IdCadastro");
 
-                    b.ToTable("Cadastros");
+                    b.ToTable("Cadastro");
                 });
 
             modelBuilder.Entity("ampare_backend.Models.CadastroOng", b =>

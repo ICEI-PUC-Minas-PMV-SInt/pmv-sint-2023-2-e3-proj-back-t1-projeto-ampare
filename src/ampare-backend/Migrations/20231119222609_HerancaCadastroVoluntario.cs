@@ -4,51 +4,54 @@
 
 namespace ampare_backend.Migrations
 {
-    public partial class addTableCadastro : Migration
+    public partial class HerancaCadastroVoluntario : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Cadastros",
+                name: "Cadastro",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
+                    IdCadastro = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Login = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Senha = table.Column<int>(type: "int", nullable: false),
+                    Senha = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Nome = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Telefone = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Endereço = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Endereco = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Status = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Cadastros", x => x.Id);
+                    table.PrimaryKey("PK_Cadastro", x => x.IdCadastro);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Cadatro_Voluntarios",
+                name: "Voluntarios",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    IdCadastro = table.Column<int>(type: "int", nullable: false),
                     Idade = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Cadatro_Voluntarios", x => x.Id);
+                    table.PrimaryKey("PK_Voluntarios", x => x.IdCadastro);
+                    table.ForeignKey(
+                        name: "FK_Voluntarios_Cadastro_IdCadastro",
+                        column: x => x.IdCadastro,
+                        principalTable: "Cadastro",
+                        principalColumn: "IdCadastro");
                 });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Cadastros");
+                name: "Voluntarios");
 
             migrationBuilder.DropTable(
-                name: "Cadatro_Voluntarios");
+                name: "Cadastro");
         }
     }
 }
