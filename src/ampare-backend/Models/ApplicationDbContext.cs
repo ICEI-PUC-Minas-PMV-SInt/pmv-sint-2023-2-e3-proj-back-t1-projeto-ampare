@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+using ampare_backend.Models;
 
 namespace ampare_backend.Models
 {
@@ -16,14 +17,13 @@ namespace ampare_backend.Models
         public DbSet<CadastroVoluntario> CadastroVoluntarios { get; set; }
 
         // DB Projeto
-        // public DbSet<Projeto> Projetos { get; set; }
-
-        // DB ProjetoVoluntario
-        //public DbSet<ProjetoVoluntario> ProjetoVoluntarios { get; set; }
+        public DbSet<Projeto> Projetos { get; set; }
 
         // DB Usuario
         public DbSet<Usuario> Usuarios { get; set; }
 
+
+        public DbSet<ampare_backend.Models.CadastroVoluntario> CadastroVoluntario { get; set; }
 
     }
 }

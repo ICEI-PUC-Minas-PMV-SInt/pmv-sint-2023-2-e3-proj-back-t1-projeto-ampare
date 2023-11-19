@@ -11,5 +11,7 @@ namespace ampare_backend.Models
         public int Id { get; set; }
         public string Nome {get; set; }
         public int Idade {get; set; }
+
+        public List<Projeto> Projetos { get; } = new();
     }
 }
