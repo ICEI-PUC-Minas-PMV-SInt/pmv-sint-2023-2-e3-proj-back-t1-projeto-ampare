@@ -7,7 +7,7 @@ namespace ampare_backend.Models
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
         // DB cadastro
-        // public DbSet<Cadastro> Cadastros { get; set; }
+         public DbSet<Cadastro> Cadastros { get; set; }
 
         // DB Ong
         public DbSet<CadastroOng> CadastroOngs { get; set; }
