@@ -5,7 +5,7 @@ namespace ampare_backend.Models
 {
 
     [Table("Cadatro_Voluntarios")]
-    public class CadastroVoluntario
+    public class  CadastroVoluntario
     {
         [Key]
         public int Id { get; set; }
