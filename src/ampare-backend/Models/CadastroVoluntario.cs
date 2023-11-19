@@ -6,5 +6,7 @@ namespace ampare_backend.Models
     public class CadastroVoluntario : Cadastro
     {
         public int Idade {get; set; }
+
+        public List<Projeto> Projetos { get; } = new();
     }
 }

@@ -22,15 +22,19 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
+                        
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="CadastroOngs" asp-action="Index">Ongs</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="CadastroVoluntario" asp-action="Index">Voluntários</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Projetos" asp-action="Index">Projetos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="ProjetoVoluntario" asp-action="Index">Inscrição de voluntários em projetos</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Voluntarios" asp-action="Index">Voluntários</a>
                         </li>
+                        @* <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="ProjetoVoluntario" asp-action="Index">Inscrição de voluntários em projetos</a>
+                        </li> *@
 
                         @if (User.IsInRole("Administrador"))
                         {

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ampare_backend.Models;
 
@@ -11,9 +12,10 @@ using ampare_backend.Models;
 namespace ampare_backend.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20231119224601_TabelaProjetos")]
+    partial class TabelaProjetos
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -161,21 +163,6 @@ namespace ampare_backend.Migrations
                     b.ToTable("Usuarios");
                 });
 
-            modelBuilder.Entity("CadastroVoluntarioProjeto", b =>
-                {
-                    b.Property<int>("ProjetosIdProjeto")
-                        .HasColumnType("int");
-
-                    b.Property<int>("VoluntariosIdCadastro")
-                        .HasColumnType("int");
-
-                    b.HasKey("ProjetosIdProjeto", "VoluntariosIdCadastro");
-
-                    b.HasIndex("VoluntariosIdCadastro");
-
-                    b.ToTable("CadastroVoluntarioProjeto");
-                });
-
             modelBuilder.Entity("ampare_backend.Models.CadastroVoluntario", b =>
                 {
                     b.HasBaseType("ampare_backend.Models.Cadastro");
@@ -193,21 +180,6 @@ namespace ampare_backend.Migrations
                         .HasForeignKey("CadastroOngId");
 
                     b.Navigation("CadastroOng");
-                });
-
-            modelBuilder.Entity("CadastroVoluntarioProjeto", b =>
-                {
-                    b.HasOne("ampare_backend.Models.Projeto", null)
-                        .WithMany()
-                        .HasForeignKey("ProjetosIdProjeto")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("ampare_backend.Models.CadastroVoluntario", null)
-                        .WithMany()
-                        .HasForeignKey("VoluntariosIdCadastro")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
                 });
 
             modelBuilder.Entity("ampare_backend.Models.CadastroVoluntario", b =>
