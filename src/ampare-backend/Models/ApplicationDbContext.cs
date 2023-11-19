@@ -12,8 +12,8 @@ namespace ampare_backend.Models
         // DB Ong
         public DbSet<CadastroOng> CadastroOngs { get; set; }
 
-         //DB Voluntario
-        public DbSet<CadastroVoluntario> CadastroVoluntarios { get; set; }
+        //DB Voluntario
+        public DbSet<Cadastro> Voluntarios { get; set; }
 
         // DB Projeto
         // public DbSet<Projeto> Projetos { get; set; }
@@ -24,6 +24,10 @@ namespace ampare_backend.Models
         // DB Usuario
         public DbSet<Usuario> Usuarios { get; set; }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<CadastroVoluntario>().ToTable("Voluntarios");
+        }
 
     }
 }

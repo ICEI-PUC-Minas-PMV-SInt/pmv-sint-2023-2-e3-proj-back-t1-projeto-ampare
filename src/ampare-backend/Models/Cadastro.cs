@@ -5,21 +5,21 @@ namespace ampare_backend.Models
     public class Cadastro
     {
         [Key]
-        public int Id { get; set; }
-        [Required(ErrorMessage = "Obrigatório informa login !")]
-
+        public int IdCadastro { get; set; }
+        
+        [Required(ErrorMessage = "Obrigatório informar login!")]
         public string Login {get; set; }
-        [Required(ErrorMessage = "Obrigatório informa senha !")]
+        
+        [Required(ErrorMessage = "Obrigatório informar senha!")]
         [DataType(DataType.Password)]
+        public string Senha {get; set; }
 
-        public int Senha {get; set; }
-
-        public String Nome { get; set; }
-        [Required(ErrorMessage = "Obrigatório informa email !")]
-
-        public String Email {  get; set; }
-        public String Telefone { get; set; }
-        public String Endereço { get; set; }
+        public string Nome { get; set; }
+        
+        [Required(ErrorMessage = "Obrigatório informar email!")]
+        public string Email { get; set; }
+        public string Telefone { get; set; }
+        public string Endereco { get; set; }
         public Boolean Status { get; set; }
 
     }
