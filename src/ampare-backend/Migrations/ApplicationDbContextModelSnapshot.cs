@@ -59,39 +59,6 @@ namespace ampare_backend.Migrations
                     b.ToTable("Cadastro");
                 });
 
-            modelBuilder.Entity("ampare_backend.Models.CadastroOng", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Endereço")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Nome")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Senha")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Telefone")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("CadastroOngs");
-                });
-
             modelBuilder.Entity("ampare_backend.Models.Projeto", b =>
                 {
                     b.Property<int>("IdProjeto")
@@ -100,7 +67,7 @@ namespace ampare_backend.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdProjeto"), 1L, 1);
 
-                    b.Property<int?>("CadastroOngId")
+                    b.Property<int?>("CadastroOngIdCadastro")
                         .HasColumnType("int");
 
                     b.Property<string>("CidadeProjeto")
@@ -132,7 +99,7 @@ namespace ampare_backend.Migrations
 
                     b.HasKey("IdProjeto");
 
-                    b.HasIndex("CadastroOngId");
+                    b.HasIndex("CadastroOngIdCadastro");
 
                     b.ToTable("Projetos");
                 });
@@ -176,6 +143,13 @@ namespace ampare_backend.Migrations
                     b.ToTable("CadastroVoluntarioProjeto");
                 });
 
+            modelBuilder.Entity("ampare_backend.Models.CadastroOng", b =>
+                {
+                    b.HasBaseType("ampare_backend.Models.Cadastro");
+
+                    b.ToTable("Ongs", (string)null);
+                });
+
             modelBuilder.Entity("ampare_backend.Models.CadastroVoluntario", b =>
                 {
                     b.HasBaseType("ampare_backend.Models.Cadastro");
@@ -189,8 +163,8 @@ namespace ampare_backend.Migrations
             modelBuilder.Entity("ampare_backend.Models.Projeto", b =>
                 {
                     b.HasOne("ampare_backend.Models.CadastroOng", "CadastroOng")
-                        .WithMany()
-                        .HasForeignKey("CadastroOngId");
+                        .WithMany("Projetos")
+                        .HasForeignKey("CadastroOngIdCadastro");
 
                     b.Navigation("CadastroOng");
                 });
@@ -210,6 +184,15 @@ namespace ampare_backend.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("ampare_backend.Models.CadastroOng", b =>
+                {
+                    b.HasOne("ampare_backend.Models.Cadastro", null)
+                        .WithOne()
+                        .HasForeignKey("ampare_backend.Models.CadastroOng", "IdCadastro")
+                        .OnDelete(DeleteBehavior.ClientCascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("ampare_backend.Models.CadastroVoluntario", b =>
                 {
                     b.HasOne("ampare_backend.Models.Cadastro", null)
@@ -217,6 +200,11 @@ namespace ampare_backend.Migrations
                         .HasForeignKey("ampare_backend.Models.CadastroVoluntario", "IdCadastro")
                         .OnDelete(DeleteBehavior.ClientCascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("ampare_backend.Models.CadastroOng", b =>
+                {
+                    b.Navigation("Projetos");
                 });
 #pragma warning restore 612, 618
         }

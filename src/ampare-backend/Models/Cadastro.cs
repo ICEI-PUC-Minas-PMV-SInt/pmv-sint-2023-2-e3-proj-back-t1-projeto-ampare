@@ -18,8 +18,11 @@ namespace ampare_backend.Models
         
         [Required(ErrorMessage = "Obrigatório informar email!")]
         public string Email { get; set; }
+
         public string Telefone { get; set; }
+
         public string Endereco { get; set; }
+        
         public Boolean Status { get; set; }
 
     }
