@@ -1,6 +1,7 @@
 @model ampare_backend.Models.CadastroVoluntario
 
 @{
+    ViewData["Title"] = "Cadastro de voluntario";
 }
 
 <!DOCTYPE html>
@@ -8,21 +9,16 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Create</title>
+    <title>Novo Voluntario</title>
 </head>
 <body>
 
-<h4>CadastroVoluntario</h4>
+<h4>Cadastro de novo voluntario</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Idade" class="control-label"></label>
-                <input asp-for="Idade" class="form-control" />
-                <span asp-validation-for="Idade" class="text-danger"></span>
-            </div>
             <div class="form-group">
                 <label asp-for="Login" class="control-label"></label>
                 <input asp-for="Login" class="form-control" />
@@ -39,6 +35,11 @@
                 <span asp-validation-for="Nome" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="Idade" class="control-label"></label>
+                <input asp-for="Idade" class="form-control" />
+                <span asp-validation-for="Idade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <label asp-for="Email" class="control-label"></label>
                 <input asp-for="Email" class="form-control" />
                 <span asp-validation-for="Email" class="text-danger"></span>
@@ -53,20 +54,13 @@
                 <input asp-for="Endereco" class="form-control" />
                 <span asp-validation-for="Endereco" class="text-danger"></span>
             </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="Status" /> @Html.DisplayNameFor(model => model.Status)
-                </label>
-            </div>
+            <p></p>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-primary">Voltar</a>
+                <input type="submit" value="Enviar" class="btn btn-success" />
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>
 
 </body>

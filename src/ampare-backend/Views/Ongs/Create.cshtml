@@ -1,5 +1,8 @@
 @model ampare_backend.Models.CadastroOng
 
+@{
+	ViewData["Title"] = "Cadastro de ONG";
+}
 
 
 <!DOCTYPE html>
@@ -11,7 +14,7 @@
 </head>
 <body>
 
-<h4>CadastroOng</h4>
+<h4>Cadastro de nova ONG</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -47,20 +50,13 @@
                 <input asp-for="Endereco" class="form-control" />
                 <span asp-validation-for="Endereco" class="text-danger"></span>
             </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="Status" /> @Html.DisplayNameFor(model => model.Status)
-                </label>
-            </div>
+            <p></p>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
+                <a asp-action="Index" class="btn btn-primary">Voltar</a>
+                <input type="submit" value="Enviar" class="btn btn-success" />
+             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>
 
 </body>
