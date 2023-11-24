@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ampare_backend.Models;
 
@@ -11,9 +12,10 @@ using ampare_backend.Models;
 namespace ampare_backend.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20231123213526_hash")]
+    partial class hash
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -43,9 +45,6 @@ namespace ampare_backend.Migrations
                     b.Property<string>("Nome")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Perfil")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Senha")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -58,7 +57,7 @@ namespace ampare_backend.Migrations
 
                     b.HasKey("IdCadastro");
 
-                    b.ToTable("Cadastros", (string)null);
+                    b.ToTable("Cadastro");
                 });
 
             modelBuilder.Entity("ampare_backend.Models.Projeto", b =>
@@ -103,7 +102,31 @@ namespace ampare_backend.Migrations
 
                     b.HasIndex("CadastroOngIdCadastro");
 
-                    b.ToTable("Projetos", (string)null);
+                    b.ToTable("Projetos");
+                });
+
+            modelBuilder.Entity("ampare_backend.Models.Usuario", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Login")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Perfil")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Senha")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Usuarios");
                 });
 
             modelBuilder.Entity("CadastroVoluntarioProjeto", b =>
@@ -118,7 +141,7 @@ namespace ampare_backend.Migrations
 
                     b.HasIndex("VoluntariosIdCadastro");
 
-                    b.ToTable("CadastroVoluntarioProjeto", (string)null);
+                    b.ToTable("CadastroVoluntarioProjeto");
                 });
 
             modelBuilder.Entity("ampare_backend.Models.CadastroOng", b =>
