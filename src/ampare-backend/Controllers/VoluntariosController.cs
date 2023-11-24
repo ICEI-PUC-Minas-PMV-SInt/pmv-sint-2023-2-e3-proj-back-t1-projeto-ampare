@@ -53,10 +53,12 @@ namespace ampare_backend.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Idade,IdCadastro,Login,Senha,Nome,Email,Telefone,Endereco,Status")] CadastroVoluntario cadastroVoluntario)
+        public async Task<IActionResult> Create([Bind("Idade,IdCadastro,Login,Senha,Nome,Email,Telefone,Endereco,Status,Perfil")] CadastroVoluntario cadastroVoluntario)
         {
             if (ModelState.IsValid)
             {
+                cadastroVoluntario.Senha = BCrypt.Net.BCrypt.HashPassword(cadastroVoluntario.Senha);
+                cadastroVoluntario.Perfil = "Voluntario";
                 _context.Add(cadastroVoluntario);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -85,7 +87,7 @@ namespace ampare_backend.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Idade,IdCadastro,Login,Senha,Nome,Email,Telefone,Endereco,Status")] CadastroVoluntario cadastroVoluntario)
+        public async Task<IActionResult> Edit(int id, [Bind("Idade,IdCadastro,Login,Senha,Nome,Email,Telefone,Endereco,Status,Perfil")] CadastroVoluntario cadastroVoluntario)
         {
             if (id != cadastroVoluntario.IdCadastro)
             {
@@ -96,6 +98,16 @@ namespace ampare_backend.Controllers
             {
                 try
                 {
+                    // Se a senha não for alterada, mantém a senha atual
+                    if (cadastroVoluntario.Senha == null)
+                    {
+                        cadastroVoluntario.Senha = _context.CadastroOng.AsNoTracking().FirstOrDefault(x => x.IdCadastro == cadastroVoluntario.IdCadastro).Senha;
+                    }
+                    else
+                    {
+                        cadastroVoluntario.Senha = BCrypt.Net.BCrypt.HashPassword(cadastroVoluntario.Senha);
+                    }
+
                     _context.Update(cadastroVoluntario);
                     await _context.SaveChangesAsync();
                 }

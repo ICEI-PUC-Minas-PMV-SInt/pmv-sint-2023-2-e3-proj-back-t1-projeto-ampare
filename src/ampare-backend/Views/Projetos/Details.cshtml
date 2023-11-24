@@ -1,6 +1,7 @@
 @model ampare_backend.Models.Projeto
 
 @{
+    ViewData["Title"] = "Detalhes Projeto";
 }
 
 <!DOCTYPE html>
@@ -59,7 +60,7 @@
             @Html.DisplayFor(model => model.CidadeProjeto)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.EstadoProjeto)
+                Ativo
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.EstadoProjeto)
@@ -67,8 +68,8 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.IdProjeto">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+        <a asp-action="Edit" asp-route-id="@Model?.IdProjeto" class="btn btn-warning">Editar</a> 
+        <a asp-action="Index" class="btn btn-success">Voltar</a>
 </div>
 </body>
 </html>

@@ -16,7 +16,7 @@ namespace ampare_backend.Models
 
         public string Nome { get; set; }
         
-        [Required(ErrorMessage = "Obrigatório informar email!")]
+        // [Required(ErrorMessage = "Obrigatório informar email!")]
         public string Email { get; set; }
 
         public string Telefone { get; set; }
@@ -25,5 +25,15 @@ namespace ampare_backend.Models
         
         public Boolean Status { get; set; }
 
+        public string Perfil { get; set; }
+
     }
+
+    public enum TiposPerfil
+    {
+        Voluntario,
+        Ong,
+        Administrador
+    }
+
 }

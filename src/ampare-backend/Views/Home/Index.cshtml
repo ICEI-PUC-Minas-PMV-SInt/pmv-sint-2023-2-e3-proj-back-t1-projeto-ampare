@@ -2,7 +2,23 @@
     ViewData["Title"] = "Ampare - Backend";
 }
 
-<h1>
-	Ampare - Backend
-</h1>
+<div class="container-fluid">
 
+	<img src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e3-proj-back-t1-projeto-ampare/blob/main/docs/img/banner-readme.png?raw=true" class="img-fluid" alt="Responsive image">
+
+</div>
+
+<div class="text-center">
+	<a asp-controller="Voluntarios" asp-action="Create" class="btn btn-primary btn-lg">Voluntário - Cadastre-se!</a>
+	<a asp-controller="Ongs" asp-action="Create" class="btn btn-success btn-lg">ONG - Cadastre-se!</a>
+</div>
+<p></p>
+<div class="text-center">
+	<h3> Área de administração</h3>
+</div>
+<div class="text-center">
+	<a asp-controller="Ongs" asp-action="Index" class="btn btn-light btn-lg">Tabela de ONGs</a>
+	<a asp-controller="Voluntarios" asp-action="Index" class="btn btn-light btn-lg">Tabela de Voluntários</a>
+	<a asp-controller="Projetos" asp-action="Index" class="btn btn-light btn-lg">Tabela de Projetos</a>
+	<a asp-controller="Cadastros" asp-action="Index" class="btn btn-light btn-lg">Controle de usuários</a>
+</div>

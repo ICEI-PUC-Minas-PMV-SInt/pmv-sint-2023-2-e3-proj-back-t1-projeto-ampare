@@ -1,6 +1,7 @@
 @model ampare_backend.Models.Projeto
 
 @{
+    ViewData["Title"] = "Cadastro de projetos";
 }
 
 <!DOCTYPE html>
@@ -19,55 +20,50 @@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="IdOng" class="control-label"></label>
+                Id da ONG vinculada
                 <input asp-for="IdOng" class="form-control" />
                 <span asp-validation-for="IdOng" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="ResponsavelProjeto" class="control-label"></label>
+                Responsavel pelo projeto
                 <input asp-for="ResponsavelProjeto" class="form-control" />
                 <span asp-validation-for="ResponsavelProjeto" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="NomeProjeto" class="control-label"></label>
+                Nome do projeto
                 <input asp-for="NomeProjeto" class="form-control" />
                 <span asp-validation-for="NomeProjeto" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="DescricaoProjeto" class="control-label"></label>
+                Descricao do projeto
                 <input asp-for="DescricaoProjeto" class="form-control" />
                 <span asp-validation-for="DescricaoProjeto" class="text-danger"></span>
             </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="StatusProjeto" /> @Html.DisplayNameFor(model => model.StatusProjeto)
-                </label>
-            </div>
-            <div class="form-group">
-                <label asp-for="DataInicio" class="control-label"></label>
+             <div class="form-group">
+                Data de inicio
                 <input asp-for="DataInicio" class="form-control" />
                 <span asp-validation-for="DataInicio" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="CidadeProjeto" class="control-label"></label>
+                Cidade do projeto
                 <input asp-for="CidadeProjeto" class="form-control" />
                 <span asp-validation-for="CidadeProjeto" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="EstadoProjeto" class="control-label"></label>
+                Estado
                 <input asp-for="EstadoProjeto" class="form-control" />
                 <span asp-validation-for="EstadoProjeto" class="text-danger"></span>
             </div>
+            <div class="form-group form-check">
+                <input class="form-check-input" asp-for="StatusProjeto" /> Ativo                
+            </div>
+            <p></p>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-primary">Voltar</a>
+                <input type="submit" value="Enviar" class="btn btn-success" />
             </div>
         </form>
     </div>
 </div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
 </body>
 </html>

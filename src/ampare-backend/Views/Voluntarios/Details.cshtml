@@ -1,6 +1,7 @@
 @model ampare_backend.Models.CadastroVoluntario
 
 @{
+    ViewData["Title"] = "Detalhes Voluntário";
 }
 
 <!DOCTYPE html>
@@ -29,12 +30,6 @@
             @Html.DisplayFor(model => model.Login)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Senha)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Senha)
-        </dd>
-        <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Nome)
         </dt>
         <dd class = "col-sm-10">
@@ -59,7 +54,7 @@
             @Html.DisplayFor(model => model.Endereco)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Status)
+                Ativo
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Status)
@@ -67,8 +62,8 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.IdCadastro">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+        <a asp-action="Edit" asp-route-id="@Model?.IdCadastro" class="btn btn-warning">Editar</a> 
+        <a asp-action="Index" class="btn btn-success">Voltar</a>
 </div>
 </body>
 </html>

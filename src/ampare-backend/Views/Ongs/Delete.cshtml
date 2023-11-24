@@ -1,18 +1,21 @@
 @model ampare_backend.Models.CadastroOng
 
+@{
+    ViewData["Title"] = "Apagar ONG";
+}
 
 <!DOCTYPE html>
 
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Delete</title>
+    <title>Apagar</title>
 </head>
 <body>
 
-<h3>Are you sure you want to delete this?</h3>
+<h3>Tem certeza que deseja apagar esse cadastro?</h3>
 <div>
-    <h4>CadastroOng</h4>
+    <h4>Cadastro ONG</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -20,12 +23,6 @@
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Login)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Senha)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Senha)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Nome)
@@ -61,9 +58,9 @@
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="IdCadastro" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
-    </form>
+        <input type="submit" value="Apagar" class="btn btn-danger" /> 
+            <a asp-action="Index" class="btn btn-secondary">Voltar</a>
+        </form>
 </div>
 </body>
 </html>
