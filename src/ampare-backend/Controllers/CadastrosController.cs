@@ -14,7 +14,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace ampare_backend.Controllers
 {
-    [Authorize(Roles = "Administrador")]
+    [Authorize(Roles = "Administrador, Voluntario, Ong")]
     public class CadastrosController : Controller
     {
         private readonly ApplicationDbContext _context;

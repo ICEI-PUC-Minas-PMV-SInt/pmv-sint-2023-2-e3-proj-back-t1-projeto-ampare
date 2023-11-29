@@ -1,0 +1,49 @@
+﻿@model IEnumerable<ampare_backend.Models.ProjetoVoluntario>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Inscrições de voluntários em projetos</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary btn-lg">Inscrever voluntário em projeto</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Projeto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Voluntario)
+            </th>
+            <th>
+                Ativo
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Projeto.CidadeProjeto)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Voluntario.Login)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+                <td>
+
+                    <a asp-action="Details" asp-route-id="@item.ProjetoVoluntarioId" class="btn btn-secondary">Detalhar</a>
+                    <a asp-action="Edit" asp-route-id="@item.ProjetoVoluntarioId" class="btn btn-warning">Editar</a>
+                    <a asp-action="Delete" asp-route-id="@item.ProjetoVoluntarioId" class="btn btn-danger">Apagar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

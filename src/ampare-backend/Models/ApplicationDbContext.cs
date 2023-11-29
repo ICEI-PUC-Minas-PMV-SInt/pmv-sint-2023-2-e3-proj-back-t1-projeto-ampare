@@ -19,6 +19,9 @@ namespace ampare_backend.Models
         // DB Projeto
         public DbSet<Projeto> Projetos { get; set; }
 
+        // DB ProjetoVoluntario
+        public DbSet<ProjetoVoluntario> ProjetoVoluntarios { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<CadastroVoluntario>().ToTable("Voluntarios");
