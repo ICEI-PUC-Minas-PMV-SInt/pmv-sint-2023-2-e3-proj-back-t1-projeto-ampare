@@ -1,0 +1,44 @@
+﻿@model ampare_backend.Models.ProjetoVoluntario
+
+@{
+    ViewData["Title"] = "Editar inscrição";
+}
+
+<h1>Editar</h1>
+
+<h4>Editar inscrição de voluntário em projeto</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ProjetoVoluntarioId" />
+            <div class="form-group">
+                <label asp-for="IdProjeto" class="control-label"></label>
+                <select asp-for="IdProjeto" class="form-control" asp-items="ViewBag.IdProjeto"></select>
+                <span asp-validation-for="IdProjeto" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdVoluntario" class="control-label"></label>
+                <select asp-for="IdVoluntario" class="form-control" asp-items="ViewBag.IdVoluntario"></select>
+                <span asp-validation-for="IdVoluntario" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Status" /> @Html.DisplayNameFor(model => model.Status)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Enviar" class="btn btn-success" />
+                <a asp-action="Index" class="btn btn-primary">Voltar</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
