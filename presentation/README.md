@@ -1,3 +1,7 @@
 # Apresentação da Solução
 
-Faça uma apresentação de um resumo de todos o processo de desenvolvimento e no final apresente a solução desenvolvida, usando um pequeno vídeo.
+## Vídeo
+[Acesse aqui o vídeo da apresentação da solução](./Apresentação Grupo 3 Ampare backend.mp4).
+
+## Slides
+[Acesse aqui os slides da apresentação](./Slides - AMPARE - Grupo 3.pptx).
