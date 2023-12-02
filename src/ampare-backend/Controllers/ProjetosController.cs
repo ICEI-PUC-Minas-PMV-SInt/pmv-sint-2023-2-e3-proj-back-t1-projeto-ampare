@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ampare_backend.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace ampare_backend.Controllers
 {
+    [Authorize(Roles = "Administrador, Ong")]
     public class ProjetosController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -21,6 +23,7 @@ namespace ampare_backend.Controllers
         // GET: Projetos
         public async Task<IActionResult> Index()
         {
+            var applicationDbContext = _context.CadastroOng.Include(p => p.Nome);
               return View(await _context.Projetos.ToListAsync());
         }
 
@@ -33,6 +36,7 @@ namespace ampare_backend.Controllers
             }
 
             var projeto = await _context.Projetos
+                .Include(p => p.CadastroOng)
                 .FirstOrDefaultAsync(m => m.IdProjeto == id);
             if (projeto == null)
             {
@@ -45,6 +49,7 @@ namespace ampare_backend.Controllers
         // GET: Projetos/Create
         public IActionResult Create()
         {
+            ViewData["IdOng"] = new SelectList(_context.CadastroOng, "IdCadastro", "Nome");
             return View();
         }
 
@@ -61,6 +66,7 @@ namespace ampare_backend.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["IdOng"] = new SelectList(_context.CadastroOng, "IdCadastro", "Nome", projeto.IdOng);
             return View(projeto);
         }
 
@@ -77,6 +83,7 @@ namespace ampare_backend.Controllers
             {
                 return NotFound();
             }
+            ViewData["IdOng"] = new SelectList(_context.CadastroOng, "IdCadastro", "Nome", projeto.IdOng);
             return View(projeto);
         }
 
@@ -112,6 +119,7 @@ namespace ampare_backend.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["IdOng"] = new SelectList(_context.CadastroOng, "IdCadastro", "Nome", projeto.IdOng);
             return View(projeto);
         }
 
@@ -124,6 +132,7 @@ namespace ampare_backend.Controllers
             }
 
             var projeto = await _context.Projetos
+                .Include(p => p.CadastroOng)
                 .FirstOrDefaultAsync(m => m.IdProjeto == id);
             if (projeto == null)
             {

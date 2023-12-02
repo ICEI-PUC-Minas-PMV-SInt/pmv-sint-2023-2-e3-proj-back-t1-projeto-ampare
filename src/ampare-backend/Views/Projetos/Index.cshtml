@@ -1,18 +1,13 @@
 @model IEnumerable<ampare_backend.Models.Projeto>
 
 @{
+ViewData["Title"] = "Projetos";
 }
 
-<!DOCTYPE html>
+<h1>Lista de projetos</h1>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
-<body>
 <p>
-        <a asp-action="Create" class="btn btn-primary btn-lg">Incluir novo projeto</a>
+    <a asp-action="Create" class="btn btn-primary btn-lg">Incluir novo projeto</a>
 </p>
 <table class="table">
     <thead>
@@ -46,9 +41,9 @@
     </thead>
     <tbody>
 @foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdOng)
+            <tr>
+                <td>
+                @Html.DisplayFor(modelItem => item.CadastroOng.Nome)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.ResponsavelProjeto)
@@ -76,9 +71,7 @@
                         <a asp-action="Edit" asp-route-id="@item.IdProjeto" class="btn btn-warning">Editar</a>
                         <a asp-action="Delete" asp-route-id="@item.IdProjeto" class="btn btn-danger">Apagar</a>
             </td>
-        </tr>
-}
+            </tr>
+        }
     </tbody>
 </table>
-</body>
-</html>

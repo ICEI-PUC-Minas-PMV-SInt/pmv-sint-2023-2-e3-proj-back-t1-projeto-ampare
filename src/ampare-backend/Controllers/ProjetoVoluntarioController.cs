@@ -50,7 +50,7 @@ namespace ampare_backend.Controllers
 		// GET: ProjetoVoluntario/Create
 		public IActionResult Create()
 		{
-			ViewData["IdProjeto"] = new SelectList(_context.Projetos, "IdProjeto", "CidadeProjeto");
+			ViewData["IdProjeto"] = new SelectList(_context.Projetos, "IdProjeto", "NomeProjeto");
 			ViewData["IdVoluntario"] = new SelectList(_context.CadastroVoluntario, "IdCadastro", "Login");
 			return View();
 		}
@@ -68,7 +68,7 @@ namespace ampare_backend.Controllers
 				await _context.SaveChangesAsync();
 				return RedirectToAction(nameof(Index));
 			}
-			ViewData["IdProjeto"] = new SelectList(_context.Projetos, "IdProjeto", "CidadeProjeto", projetoVoluntario.IdProjeto);
+			ViewData["IdProjeto"] = new SelectList(_context.Projetos, "IdProjeto", "NomeProjeto", projetoVoluntario.IdProjeto);
 			ViewData["IdVoluntario"] = new SelectList(_context.CadastroVoluntario, "IdCadastro", "Login", projetoVoluntario.IdVoluntario);
 			return View(projetoVoluntario);
 		}
@@ -86,7 +86,7 @@ namespace ampare_backend.Controllers
 			{
 				return NotFound();
 			}
-			ViewData["IdProjeto"] = new SelectList(_context.Projetos, "IdProjeto", "CidadeProjeto", projetoVoluntario.IdProjeto);
+			ViewData["IdProjeto"] = new SelectList(_context.Projetos, "IdProjeto", "NomeProjeto", projetoVoluntario.IdProjeto);
 			ViewData["IdVoluntario"] = new SelectList(_context.CadastroVoluntario, "IdCadastro", "Login", projetoVoluntario.IdVoluntario);
 			return View(projetoVoluntario);
 		}
@@ -123,7 +123,7 @@ namespace ampare_backend.Controllers
 				}
 				return RedirectToAction(nameof(Index));
 			}
-			ViewData["IdProjeto"] = new SelectList(_context.Projetos, "IdProjeto", "CidadeProjeto", projetoVoluntario.IdProjeto);
+			ViewData["IdProjeto"] = new SelectList(_context.Projetos, "IdProjeto", "NomeProjeto", projetoVoluntario.IdProjeto);
 			ViewData["IdVoluntario"] = new SelectList(_context.CadastroVoluntario, "IdCadastro", "Login", projetoVoluntario.IdVoluntario);
 			return View(projetoVoluntario);
 		}
