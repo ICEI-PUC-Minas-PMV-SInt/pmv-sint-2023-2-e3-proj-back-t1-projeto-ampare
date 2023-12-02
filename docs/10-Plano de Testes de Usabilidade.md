@@ -33,19 +33,14 @@ Os testes de usabilidade abrangem uma variedade de tarefas, desde o cadastro at�
 |----------------------|-------------------|-------------------|
 | Inscrição em Projetos | Avaliar a usabilidade do processo de inscrição em projetos para voluntários. | - Voluntário consegue se inscrever em projetos de forma clara e rápida.
 
-**CT-04: Teste de Visualização de Histórico de Projetos Inscritos**
 
-| Requisitos Associados | Objetivo do Teste | Critérios de Êxito |
-|----------------------|-------------------|-------------------|
-| Histórico de Projetos Inscritos | Verificar a facilidade de acesso e visualização do histórico de projetos em que o voluntário já se inscreveu. | - Voluntário encontra e visualiza o histórico sem complicações.
-
-**CT-05: Teste de Edição de Página de Perfil**
+**CT-04: Teste de Edição de Página de Perfil**
 
 | Requisitos Associados | Objetivo do Teste | Critérios de Êxito |
 |----------------------|-------------------|-------------------|
 | Edição de Página de Perfil | Avaliar a usabilidade da funcionalidade de edição de perfil para voluntários. | - Voluntário consegue editar informações do perfil de maneira intuitiva.
 
-**CT-06: Teste de Exclusão de Cadastro**
+**CT-05: Teste de Exclusão de Cadastro**
 
 | Requisitos Associados | Objetivo do Teste | Critérios de Êxito |
 |----------------------|-------------------|-------------------|
@@ -53,37 +48,32 @@ Os testes de usabilidade abrangem uma variedade de tarefas, desde o cadastro at�
 
 ### ONGs
 
-**CT-07: Teste de Cadastro de ONG**
+**CT-06: Teste de Cadastro de ONG**
 
 | Requisitos Associados | Objetivo do Teste | Critérios de Êxito |
 |----------------------|-------------------|-------------------|
 | Cadastro de ONG | Avaliar a facilidade e clareza no processo de cadastro para ONGs. | - ONG conclui o cadastro sem dificuldades. - Informações corretamente registradas.
 
-**CT-08: Teste de Gerenciamento de Projetos/Eventos**
+**CT-07: Teste de Gerenciamento de Projetos/Eventos**
 
 | Requisitos Associados | Objetivo do Teste | Critérios de Êxito |
 |----------------------|-------------------|-------------------|
 | Gerenciamento de Projetos/Eventos | Verificar a usabilidade do processo de adição e exclusão de projetos pela ONG. | - ONG consegue adicionar e excluir projetos de forma clara e rápida.
 
-**CT-09: Teste de Recrutamento de Voluntários**
 
-| Requisitos Associados | Objetivo do Teste | Critérios de Êxito |
-|----------------------|-------------------|-------------------|
-| Recrutamento de Voluntários | Avaliar a eficácia do processo de recrutamento de voluntários por parte da ONG. | - ONG consegue recrutar voluntários de maneira intuitiva.
-
-**CT-10: Teste de Visualização de Voluntários Inscritos**
+**CT-08: Teste de Visualização de Voluntários Inscritos**
 
 | Requisitos Associados | Objetivo do Teste | Critérios de Êxito |
 |----------------------|-------------------|-------------------|
 | Visualização de Voluntários Inscritos | Verificar a facilidade de acessar e visualizar voluntários inscritos em projetos da ONG. | - ONG encontra e visualiza voluntários inscritos sem complicações.
 
-**CT-11: Teste de Marcar Projeto/Evento como Urgente**
+**CT-09: Teste de Marcar Projeto como Ativo**
 
 | Requisitos Associados | Objetivo do Teste | Critérios de Êxito |
 |----------------------|-------------------|-------------------|
 | Marcar Projeto/Evento como Urgente | Avaliar a usabilidade da funcionalidade de marcar projetos/eventos como urgentes. | - ONG consegue marcar projetos/eventos como urgentes de forma clara.
 
-**CT-12: Teste de Exclusão de Projeto/Evento**
+**CT-10: Teste de Exclusão de Projeto**
 
 | Requisitos Associados | Objetivo do Teste | Critérios de Êxito |
 |----------------------|-------------------|-------------------|
@@ -114,7 +104,7 @@ Os testes de usabilidade abrangem uma variedade de tarefas, desde o cadastro at�
 - Feedback direto dos usuários por meio de questionários pós-teste.
 - Observações de comportamento durante os testes.
 
-** Questionário Pós-Teste - Usabilidade Projeto Ampare **
+## Questionário Pós-Teste - Usabilidade Projeto Ampare
 
 **Geral:**
 1. Como você avalia a facilidade de uso geral do Projeto Ampare? (Escala de 1 a 5, sendo 1 muito difícil e 5 muito fácil)
@@ -158,8 +148,7 @@ Os testes de usabilidade abrangem uma variedade de tarefas, desde o cadastro at�
 
 *Agradecemos por dedicar seu tempo para fornecer feedback sobre a usabilidade do Projeto Ampare!*
 
-
-**5. Avaliação e Melhoria:**
+## Avaliação e Melhoria:
 
 - Revisar os resultados dos testes.
 - Identificar áreas de melhoria na interface e na experiência do usuário.
