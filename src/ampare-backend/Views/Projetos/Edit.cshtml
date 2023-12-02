@@ -21,42 +21,41 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="IdProjeto" />
             <div class="form-group">
-                <label asp-for="IdOng" class="control-label"></label>
-                <input asp-for="IdOng" class="form-control" />
-                <span asp-validation-for="IdOng" class="text-danger"></span>
+               ONG vinculada
+                    <select asp-for="IdOng" class="form-control" asp-items="ViewBag.IdOng"></select>
             </div>
             <div class="form-group">
-                <label asp-for="ResponsavelProjeto" class="control-label"></label>
+                Responsavel pelo projeto
                 <input asp-for="ResponsavelProjeto" class="form-control" />
                 <span asp-validation-for="ResponsavelProjeto" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="NomeProjeto" class="control-label"></label>
+               Nome do projeto
                 <input asp-for="NomeProjeto" class="form-control" />
                 <span asp-validation-for="NomeProjeto" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="DescricaoProjeto" class="control-label"></label>
+                Descricao do projeto
                 <input asp-for="DescricaoProjeto" class="form-control" />
                 <span asp-validation-for="DescricaoProjeto" class="text-danger"></span>
             </div>
             <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="StatusProjeto" /> @Html.DisplayNameFor(model => model.StatusProjeto)
-                </label>
+                Ativo
+                    <input class="form-check-input" asp-for="StatusProjeto" /> 
+                
             </div>
             <div class="form-group">
-                <label asp-for="DataInicio" class="control-label"></label>
+               Data de inicio
                 <input asp-for="DataInicio" class="form-control" />
                 <span asp-validation-for="DataInicio" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="CidadeProjeto" class="control-label"></label>
+                Cidade
                 <input asp-for="CidadeProjeto" class="form-control" />
                 <span asp-validation-for="CidadeProjeto" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="EstadoProjeto" class="control-label"></label>
+                Estado
                 <input asp-for="EstadoProjeto" class="form-control" />
                 <span asp-validation-for="EstadoProjeto" class="text-danger"></span>
             </div>

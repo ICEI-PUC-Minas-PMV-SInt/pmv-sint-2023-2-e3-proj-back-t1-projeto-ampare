@@ -4,15 +4,6 @@
     ViewData["Title"] = "Cadastro de projetos";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Create</title>
-</head>
-<body>
-
 <h4>Projeto</h4>
 <hr />
 <div class="row">
@@ -20,9 +11,8 @@
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                Id da ONG vinculada
-                <input asp-for="IdOng" class="form-control" />
-                <span asp-validation-for="IdOng" class="text-danger"></span>
+                ONG vinculada
+                <select asp-for="IdOng" class="form-control" asp-items="ViewBag.IdOng"></select>
             </div>
             <div class="form-group">
                 Responsavel pelo projeto
@@ -65,5 +55,4 @@
         </form>
     </div>
 </div>
-</body>
-</html>
+

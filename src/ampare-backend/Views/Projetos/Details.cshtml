@@ -4,63 +4,54 @@
     ViewData["Title"] = "Detalhes Projeto";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Details</title>
-</head>
-<body>
-
 <div>
     <h4>Projeto</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.IdOng)
+            ONG vinculada
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.IdOng)
+                @Html.DisplayFor(model => model.CadastroOng.Nome)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ResponsavelProjeto)
+            Responsavel pelo projeto
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.ResponsavelProjeto)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NomeProjeto)
+            Nome do projeto
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.NomeProjeto)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DescricaoProjeto)
+            Descricao do projeto
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.DescricaoProjeto)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.StatusProjeto)
+            Ativo
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.StatusProjeto)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DataInicio)
+            Data de inicio
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.DataInicio)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CidadeProjeto)
+            Cidade
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.CidadeProjeto)
         </dd>
         <dt class = "col-sm-2">
-                Ativo
+               Estado
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.EstadoProjeto)
@@ -71,5 +62,3 @@
         <a asp-action="Edit" asp-route-id="@Model?.IdProjeto" class="btn btn-warning">Editar</a> 
         <a asp-action="Index" class="btn btn-success">Voltar</a>
 </div>
-</body>
-</html>
